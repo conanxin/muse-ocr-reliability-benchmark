@@ -93,10 +93,10 @@ def test_known_failures(cases):
     # 验证逻辑：verdict=incorrect 且 status=reverted 的一致性
     consistent = all(c['verdict']=='incorrect' for c in reverted)
     if len(reverted) > 0 and consistent:
-        print("   ✓ PASS")
+        print("   [PASS] PASS")
         passed += 1
     else:
-        print("   ✗ FAIL")
+        print("   [FAIL] FAIL")
     # 2. P9 漏文：应在 ocr 中找到 2 个 P9 omission
     ocr_cases = [c for c in cases if c['subset']=='ocr']
     p9_omissions = [c for c in ocr_cases 
@@ -107,10 +107,10 @@ def test_known_failures(cases):
     has_p9001 = any('P9-001' in c['source'] for c in ocr_cases)
     has_p9015 = any('P9-015' in c['source'] for c in ocr_cases)
     if has_p9001 and has_p9015:
-        print("   ✓ PASS (P9-001 和 P9-015 均存在)")
+        print("   [PASS] PASS (P9-001 和 P9-015 均存在)")
         passed += 1
     else:
-        print(f"   ✗ FAIL (P9-001: {has_p9001}, P9-015: {has_p9015})")
+        print(f"   [FAIL] FAIL (P9-001: {has_p9001}, P9-015: {has_p9015})")
     # 3. 补丁范围：P9-P2-001 应为单字符修改
     p2001 = [c for c in ai_cases if 'P9-P2-001' in str(c['history_chain'])]
     print(f"\n3. P9-P2-001 范围重现：找到 {len(p2001)} 个案例（期望 1）")
@@ -119,12 +119,12 @@ def test_known_failures(cases):
         ed = edit_distance(c['ocr_text'], c['ai_proposed'])
         print(f"   编辑距离: {ed}（期望 1）")
         if ed == 1:
-            print("   ✓ PASS")
+            print("   [PASS] PASS")
             passed += 1
         else:
-            print("   ✗ FAIL")
+            print("   [FAIL] FAIL")
     else:
-        print("   ✗ FAIL（未找到）")
+        print("   [FAIL] FAIL（未找到）")
     print(f"\n=== 结果：{passed}/{total} 通过 ===")
     return passed == total
 
