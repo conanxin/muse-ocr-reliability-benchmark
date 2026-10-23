@@ -1,0 +1,7 @@
+{"pages": [52, 100, 148, 197, 244, 292],
+ "gold_dir": "p17/gold_v2",
+ "base_dir": "p17/work/ocr",
+ "flags_dir": "p17/flags",
+ "adj_path": "p17/adjudications.jsonl",
+ "corrected_dir": "p17/corrected",
+ "out_path": "p17/eval_results.json"}

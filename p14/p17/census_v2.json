@@ -1,0 +1,80 @@
+[
+  {
+    "page": 52,
+    "tag": "delete",
+    "base": "‘",
+    "gold": "",
+    "covered_by": [
+      "p0052-001"
+    ],
+    "context": "d from eleven to one o’clock. “What time is it,” a Chinese i"
+  },
+  {
+    "page": 52,
+    "tag": "replace",
+    "base": " »",
+    "gold": "”",
+    "covered_by": [
+      "p0052-004"
+    ],
+    "context": " the moon is at the meridian ?” Similar uncertainties pervade"
+  },
+  {
+    "page": 100,
+    "tag": "delete",
+    "base": " -",
+    "gold": "",
+    "covered_by": [
+      "p0100-001"
+    ],
+    "context": "CHAPTER X. INTELLECTUAL TURBIDITY. IN sp"
+  },
+  {
+    "page": 100,
+    "tag": "delete",
+    "base": "‘",
+    "gold": "",
+    "covered_by": [
+      "p0100-006"
+    ],
+    "context": "pered by any “voice,” “mode,” “tense,” “number,” or “person."
+  },
+  {
+    "page": 148,
+    "tag": "delete",
+    "base": " .",
+    "gold": "",
+    "covered_by": [
+      "p0148-001"
+    ],
+    "context": " say, in the season when it is possible to use such an acces"
+  },
+  {
+    "page": 197,
+    "tag": "replace",
+    "base": ",",
+    "gold": ". To",
+    "covered_by": [
+      "p0197-002"
+    ],
+    "context": "CHAPTER XIX. FILIAL PIETY. To discuss the characteristics o"
+  },
+  {
+    "page": 197,
+    "tag": "replace",
+    "base": "'",
+    "gold": " ",
+    "covered_by": [],
+    "context": "an- not do better than to cite a passage from M. Callery (quo"
+  },
+  {
+    "page": 197,
+    "tag": "delete",
+    "base": "“ ",
+    "gold": "",
+    "covered_by": [
+      "p0197-006"
+    ],
+    "context": "ed in the “Middle Kingdom”): “Ceremony epitomises the entire"
+  }
+]

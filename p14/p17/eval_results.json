@@ -1,0 +1,407 @@
+{
+  "pages": {
+    "52": {
+      "gold_chars": 2026,
+      "flags": 8,
+      "mechanical": {
+        "error_regions": 2,
+        "flags": 8,
+        "tp_flags": 2,
+        "fp_flags": 6,
+        "covered_regions": 2,
+        "fn_regions": 0,
+        "flag_rows": [
+          {
+            "flag_id": "p0052-001",
+            "gold_span": [
+              252,
+              253
+            ],
+            "hit_regions": [
+              0
+            ],
+            "tp": true
+          },
+          {
+            "flag_id": "p0052-002",
+            "gold_span": [
+              307,
+              308
+            ],
+            "hit_regions": [],
+            "tp": false
+          },
+          {
+            "flag_id": "p0052-003",
+            "gold_span": [
+              335,
+              336
+            ],
+            "hit_regions": [],
+            "tp": false
+          },
+          {
+            "flag_id": "p0052-004",
+            "gold_span": [
+              487,
+              488
+            ],
+            "hit_regions": [
+              1
+            ],
+            "tp": true
+          },
+          {
+            "flag_id": "p0052-005",
+            "gold_span": [
+              594,
+              595
+            ],
+            "hit_regions": [],
+            "tp": false
+          },
+          {
+            "flag_id": "p0052-006",
+            "gold_span": [
+              741,
+              742
+            ],
+            "hit_regions": [],
+            "tp": false
+          },
+          {
+            "flag_id": "p0052-007",
+            "gold_span": [
+              758,
+              759
+            ],
+            "hit_regions": [],
+            "tp": false
+          },
+          {
+            "flag_id": "p0052-008",
+            "gold_span": [
+              985,
+              986
+            ],
+            "hit_regions": [],
+            "tp": false
+          }
+        ]
+      },
+      "adjudicated": {
+        "tp": 2,
+        "fp": 6,
+        "fixes": 2
+      },
+      "char_edits_before": 10,
+      "char_edits_after": 8,
+      "char_edits_after_raw_scoring": 8,
+      "cer_before": 0.004935834155972359,
+      "cer_after": 0.003948667324777887
+    },
+    "100": {
+      "gold_chars": 1529,
+      "flags": 7,
+      "mechanical": {
+        "error_regions": 2,
+        "flags": 7,
+        "tp_flags": 1,
+        "fp_flags": 6,
+        "covered_regions": 1,
+        "fn_regions": 1,
+        "flag_rows": [
+          {
+            "flag_id": "p0100-001",
+            "gold_span": [
+              1529,
+              1530
+            ],
+            "hit_regions": [],
+            "tp": false
+          },
+          {
+            "flag_id": "p0100-002",
+            "gold_span": [
+              50,
+              51
+            ],
+            "hit_regions": [],
+            "tp": false
+          },
+          {
+            "flag_id": "p0100-003",
+            "gold_span": [
+              931,
+              932
+            ],
+            "hit_regions": [],
+            "tp": false
+          },
+          {
+            "flag_id": "p0100-004",
+            "gold_span": [
+              937,
+              938
+            ],
+            "hit_regions": [],
+            "tp": false
+          },
+          {
+            "flag_id": "p0100-005",
+            "gold_span": [
+              1027,
+              1028
+            ],
+            "hit_regions": [],
+            "tp": false
+          },
+          {
+            "flag_id": "p0100-006",
+            "gold_span": [
+              1044,
+              1045
+            ],
+            "hit_regions": [
+              1
+            ],
+            "tp": true
+          },
+          {
+            "flag_id": "p0100-007",
+            "gold_span": [
+              1262,
+              1263
+            ],
+            "hit_regions": [],
+            "tp": false
+          }
+        ]
+      },
+      "adjudicated": {
+        "tp": 2,
+        "fp": 5,
+        "fixes": 2
+      },
+      "char_edits_before": 6,
+      "char_edits_after": 3,
+      "char_edits_after_raw_scoring": 4,
+      "cer_before": 0.003924133420536298,
+      "cer_after": 0.001962066710268149
+    },
+    "148": {
+      "gold_chars": 1994,
+      "flags": 2,
+      "mechanical": {
+        "error_regions": 1,
+        "flags": 2,
+        "tp_flags": 0,
+        "fp_flags": 2,
+        "covered_regions": 0,
+        "fn_regions": 1,
+        "flag_rows": [
+          {
+            "flag_id": "p0148-001",
+            "gold_span": [
+              1994,
+              1995
+            ],
+            "hit_regions": [],
+            "tp": false
+          },
+          {
+            "flag_id": "p0148-002",
+            "gold_span": [
+              682,
+              683
+            ],
+            "hit_regions": [],
+            "tp": false
+          }
+        ]
+      },
+      "adjudicated": {
+        "tp": 1,
+        "fp": 1,
+        "fixes": 1
+      },
+      "char_edits_before": 2,
+      "char_edits_after": 0,
+      "char_edits_after_raw_scoring": 1,
+      "cer_before": 0.0010030090270812437,
+      "cer_after": 0.0
+    },
+    "197": {
+      "gold_chars": 1609,
+      "flags": 8,
+      "mechanical": {
+        "error_regions": 3,
+        "flags": 8,
+        "tp_flags": 2,
+        "fp_flags": 6,
+        "covered_regions": 2,
+        "fn_regions": 1,
+        "flag_rows": [
+          {
+            "flag_id": "p0197-001",
+            "gold_span": [
+              0,
+              1
+            ],
+            "hit_regions": [],
+            "tp": false
+          },
+          {
+            "flag_id": "p0197-002",
+            "gold_span": [
+              25,
+              26
+            ],
+            "hit_regions": [
+              0
+            ],
+            "tp": true
+          },
+          {
+            "flag_id": "p0197-003",
+            "gold_span": [
+              429,
+              430
+            ],
+            "hit_regions": [],
+            "tp": false
+          },
+          {
+            "flag_id": "p0197-004",
+            "gold_span": [
+              820,
+              821
+            ],
+            "hit_regions": [],
+            "tp": false
+          },
+          {
+            "flag_id": "p0197-005",
+            "gold_span": [
+              835,
+              836
+            ],
+            "hit_regions": [],
+            "tp": false
+          },
+          {
+            "flag_id": "p0197-006",
+            "gold_span": [
+              839,
+              841
+            ],
+            "hit_regions": [
+              2
+            ],
+            "tp": true
+          },
+          {
+            "flag_id": "p0197-007",
+            "gold_span": [
+              1447,
+              1448
+            ],
+            "hit_regions": [],
+            "tp": false
+          },
+          {
+            "flag_id": "p0197-008",
+            "gold_span": [
+              1495,
+              1496
+            ],
+            "hit_regions": [],
+            "tp": false
+          }
+        ]
+      },
+      "adjudicated": {
+        "tp": 2,
+        "fp": 6,
+        "fixes": 2
+      },
+      "char_edits_before": 16,
+      "char_edits_after": 11,
+      "char_edits_after_raw_scoring": 11,
+      "cer_before": 0.009944064636420136,
+      "cer_after": 0.006836544437538844
+    },
+    "244": {
+      "gold_chars": 455,
+      "flags": 0,
+      "mechanical": {
+        "error_regions": 0,
+        "flags": 0,
+        "tp_flags": 0,
+        "fp_flags": 0,
+        "covered_regions": 0,
+        "fn_regions": 0,
+        "flag_rows": []
+      },
+      "adjudicated": {
+        "tp": 0,
+        "fp": 0,
+        "fixes": 0
+      },
+      "char_edits_before": 0,
+      "char_edits_after": 0,
+      "char_edits_after_raw_scoring": 0,
+      "cer_before": 0.0,
+      "cer_after": 0.0
+    },
+    "292": {
+      "gold_chars": 2007,
+      "flags": 0,
+      "mechanical": {
+        "error_regions": 0,
+        "flags": 0,
+        "tp_flags": 0,
+        "fp_flags": 0,
+        "covered_regions": 0,
+        "fn_regions": 0,
+        "flag_rows": []
+      },
+      "adjudicated": {
+        "tp": 0,
+        "fp": 0,
+        "fixes": 0
+      },
+      "char_edits_before": 1,
+      "char_edits_after": 1,
+      "char_edits_after_raw_scoring": 1,
+      "cer_before": 0.0004982561036372695,
+      "cer_after": 0.0004982561036372695
+    }
+  },
+  "totals": {
+    "flags": 25,
+    "mech_tp": 5,
+    "mech_fp": 20,
+    "mech_regions": 8,
+    "mech_covered": 5,
+    "adj_tp": 7,
+    "adj_fp": 18,
+    "fixes": 7,
+    "edits_before": 35,
+    "edits_after": 23,
+    "edits_after_raw": 25,
+    "gold_chars": 9620,
+    "mechanical": {
+      "precision": 0.2,
+      "recall_region": 0.625,
+      "fn_regions": 3
+    },
+    "adjudicated": {
+      "precision": 0.28
+    },
+    "cer_before": 0.0036382536382536385,
+    "cer_after": 0.002390852390852391,
+    "review_load_total": 25,
+    "reviews_per_confirmed_fix": 3.5714285714285716
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "task_id": "MUSE_OCR_P17_RECONCILE_AND_INDEPENDENT_VALIDATION",
+  "registered_at": "2026-10-23T13:43:48.098132+08:00",
+  "source": {
+    "work": "Arthur Henderson Smith, Chinese Characteristics (New York/Chicago: Fleming H. Revell, 1894)",
+    "ia_id": "chinesecharacter00smitiala",
+    "ia_url": "https://archive.org/details/chinesecharacter00smitiala",
+    "pdf": "p17/source/chinese_characteristics_1894_smith.pdf",
+    "pdf_sha256": "9bc540a0d8f26dac0c297ec14d6213f2fc75bb2668202650a7f97e91328bee72",
+    "pdf_pages": 388,
+    "public_domain_basis": "Published 1894; author died 1932; IA library scan (americana/cdl collections). Copyright status: public domain in the US (pre-1930 publication).",
+    "independence": "Different book, author, publisher and scan from The Chinese Recorder Vol.27 (1896) used in P14-P16."
+  },
+  "pages_rule": "Six PDF pages spread across the volume, fixed before any OCR of this book: 52, 100, 148, 196, 244, 292.",
+  "substitutions": [
+    {
+      "slot": 4,
+      "original": 196,
+      "replacement": 197,
+      "reason": "PDF 196 is a full-page photographic plate (Interior of a Mohammedan Mosque) with caption only; preregistered rule: a plate/blank slot is replaced by the nearest following body-text page. Decided from the page image before any OCR."
+    }
+  ],
+  "page_notes": {
+    "100": "Chapter-opening page (Ch. X) with a large head illustration; body text present — retained, not a plate.",
+    "197": "Chapter-opening page (Ch. XIX) with head-piece illustration; body text present.",
+    "244": "Chapter-end short page (7 lines of body text); retained."
+  },
+  "final_pages": [
+    52,
+    100,
+    148,
+    197,
+    244,
+    292
+  ],
+  "detector": {
+    "file": "p16/detector.py",
+    "sha256": "fd3142bb77a42a5598aa13ce7646ed97f1ab2de996005114fe2c082e335fe478",
+    "note": "P16 detector reused byte-identically; no parameter changes for the new book."
+  },
+  "pipeline": "pdftoppm -gray renders at 200 (baseline text) / 300 / 360 (flag discovery only); tesseract 5.3.4 eng --psm 3; scoring = p14.normalize + Levenshtein, normalize-before-score (P16 erratum fix).",
+  "gold_seal": {
+    "52": {
+      "sha256": "1606ffb155caf147db3011a402daf27d68b961e4a26ed3c042f5b72760cbe696",
+      "bytes": 2071
+    },
+    "100": {
+      "sha256": "4e61f5f969e17a97ae10d9bd4a987ddceb0371ae181e9938c495022f444a4450",
+      "bytes": 1566
+    },
+    "148": {
+      "sha256": "fb941720d73ebeadeb3a97d84dae383ea6dc8072c005111cf0a25f9d6933b1ef",
+      "bytes": 1997
+    },
+    "197": {
+      "sha256": "da0e23a76347701f1f237f4f15dc5ad1f8681dd9e8c3fa561bdaf7fa97912aa5",
+      "bytes": 1630
+    },
+    "244": {
+      "sha256": "1362924532112229bcd743535d10523fbe5b3253774dd7df376eef710d6c9010",
+      "bytes": 462
+    },
+    "292": {
+      "sha256": "ed4b85ceacf741a0c44bd06d4cf24f3da740db5479eca70de8587029d7380ad7",
+      "bytes": 2013
+    }
+  },
+  "gold_sealed_at": "2026-10-23T13:43:48.098132+08:00"
+}

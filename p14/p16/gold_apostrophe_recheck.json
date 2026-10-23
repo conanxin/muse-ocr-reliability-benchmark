@@ -1,0 +1,69 @@
+{
+  "recheck_date": "2026-10-23",
+  "phase": "P17 Phase 1",
+  "method": "360-DPI page renders cropped per site and inspected; glyph compared against the same pages' unambiguous commas and closing single quotes",
+  "verdict_scale": "CONFIRMED = printed glyph is the typographic apostrophe (comma-shaped head with descending tail), so gold v2 U+2019 is correct and v1 U+0027 was a transcriber keyboard slip",
+  "sites": [
+    {
+      "page": "33",
+      "context": "header: COMMISSION'S",
+      "crop": "p33_header.png",
+      "verdict": "CONFIRMED typographic apostrophe (U+2019)"
+    },
+    {
+      "page": "120",
+      "context": "implanted in the believer's nature",
+      "crop": "p120_believers.png",
+      "verdict": "CONFIRMED typographic apostrophe (U+2019)"
+    },
+    {
+      "page": "287",
+      "context": "reference to Murray's system",
+      "crop": "p287_L02_murrays.png",
+      "verdict": "CONFIRMED typographic apostrophe (U+2019)"
+    },
+    {
+      "page": "287",
+      "context": "The committee's letter",
+      "crop": "p287_L09_10_committee_lord.png",
+      "verdict": "CONFIRMED typographic apostrophe (U+2019)"
+    },
+    {
+      "page": "287",
+      "context": "the Lord's Prayer",
+      "crop": "p287_L09_10_committee_lord.png",
+      "verdict": "CONFIRMED typographic apostrophe (U+2019)"
+    },
+    {
+      "page": "287",
+      "context": "in Murray's system it only averages",
+      "crop": "p287_L17_murrays.png",
+      "verdict": "CONFIRMED typographic apostrophe (U+2019)"
+    },
+    {
+      "page": "287",
+      "context": "helping Murray's plan",
+      "crop": "p287_L37_murrays.png",
+      "verdict": "CONFIRMED typographic apostrophe (U+2019)"
+    },
+    {
+      "page": "287",
+      "context": "footnote: to which Murray's system can be used",
+      "crop": "p287_L40_murrays_footnote.png",
+      "verdict": "CONFIRMED typographic apostrophe (U+2019)"
+    },
+    {
+      "page": "503",
+      "context": "A-ming's, saying",
+      "crop": "p503_amings.png",
+      "verdict": "CONFIRMED typographic apostrophe (U+2019)"
+    },
+    {
+      "page": "503",
+      "context": "magistrate's conference",
+      "crop": "p503_trates.png",
+      "verdict": "CONFIRMED typographic apostrophe (U+2019)"
+    }
+  ],
+  "summary": "10/10 CONFIRMED. Both seal versions retained: gold_seal_eval.json (v1) and gold_seal_eval_v2.json (v2, current)."
+}

@@ -1,0 +1,51 @@
+{
+  "version": "gold_v2",
+  "issued": "2026-10-23T13:50:30.071258+08:00",
+  "supersedes_for_scoring": "p17/gold (v1, sealed in PREREGISTRATION.json)",
+  "corrections": [
+    {
+      "file": "p0052.txt",
+      "from": "o'clock",
+      "to": "o’clock",
+      "basis": "360-DPI image crop inspected 2026-10-23: printed glyph is the typographic apostrophe (comma-shaped, descending tail); v1 ASCII U+0027 was a transcriber keyboard slip — same failure mode as P16 gold v1->v2."
+    },
+    {
+      "file": "p0052.txt",
+      "from": "cat's",
+      "to": "cat’s",
+      "basis": "360-DPI image crop inspected 2026-10-23: printed glyph is the typographic apostrophe (comma-shaped, descending tail); v1 ASCII U+0027 was a transcriber keyboard slip — same failure mode as P16 gold v1->v2."
+    },
+    {
+      "file": "p0197.txt",
+      "from": "Williams's",
+      "to": "Williams’s",
+      "basis": "360-DPI image crop inspected 2026-10-23: printed glyph is the typographic apostrophe (comma-shaped, descending tail); v1 ASCII U+0027 was a transcriber keyboard slip — same failure mode as P16 gold v1->v2."
+    }
+  ],
+  "files": {
+    "p0052.txt": {
+      "sha256": "bbbfc8b8ebba99594ada7f43c087e3f81aa217e72362c33e1c3a5cdcf10d938a",
+      "bytes": 2075
+    },
+    "p0100.txt": {
+      "sha256": "4e61f5f969e17a97ae10d9bd4a987ddceb0371ae181e9938c495022f444a4450",
+      "bytes": 1566
+    },
+    "p0148.txt": {
+      "sha256": "fb941720d73ebeadeb3a97d84dae383ea6dc8072c005111cf0a25f9d6933b1ef",
+      "bytes": 1997
+    },
+    "p0197.txt": {
+      "sha256": "eb7371ec7cda93a837a1f47a6edee12760d2683f5ac27a90cedbe7b3cdd94a51",
+      "bytes": 1632
+    },
+    "p0244.txt": {
+      "sha256": "1362924532112229bcd743535d10523fbe5b3253774dd7df376eef710d6c9010",
+      "bytes": 462
+    },
+    "p0292.txt": {
+      "sha256": "ed4b85ceacf741a0c44bd06d4cf24f3da740db5479eca70de8587029d7380ad7",
+      "bytes": 2013
+    }
+  }
+}

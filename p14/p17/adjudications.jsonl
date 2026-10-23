@@ -1,0 +1,25 @@
+{"flag_id": "p0052-001", "verdict": "fix", "base_span": [252, 253], "note": "Spurious ‘ inserted by base before “What (print has only “). TP.", "replacement": ""}
+{"flag_id": "p0052-002", "verdict": "no-fix", "base_span": [307, 307], "note": "Whitespace-only difference (base “ when vs print “when; glyph-side spacing not scored). Base punctuation matches print. FP."}
+{"flag_id": "p0052-003", "verdict": "no-fix", "base_span": [336, 337], "note": "Base ” correct (moon?”); 360 garbled it to ' ¥'. FP."}
+{"flag_id": "p0052-004", "verdict": "fix", "base_span": [490, 491], "note": "Base read closing quote as » (meridian ? »); print ”. TP.", "replacement": "”"}
+{"flag_id": "p0052-005", "verdict": "no-fix", "base_span": [597, 598], "note": "Base “ correct (“Sunrise”); 300 '*', 360 '‘' are tier-side. FP."}
+{"flag_id": "p0052-006", "verdict": "no-fix", "base_span": [745, 745], "note": "360 inserts stray ‘ before “noon”; base matches print. FP."}
+{"flag_id": "p0052-007", "verdict": "no-fix", "base_span": [762, 763], "note": "Base “ correct (“noon,”); 300 read '* '. FP."}
+{"flag_id": "p0052-008", "verdict": "no-fix", "base_span": [989, 989], "note": "Base quotes correct (“watches”); 300/360 insert '*'. Internal spacing is whitespace. FP."}
+{"flag_id": "p0100-001", "verdict": "fix", "base_span": [11, 12], "note": "Spurious '-' after CHAPTER X. in base (print: 'CHAPTER X.' then title). TP.", "replacement": ""}
+{"flag_id": "p0100-002", "verdict": "no-fix", "base_span": [51, 51], "note": "300 inserts a second “ before 'intellectual'; base matches print. FP."}
+{"flag_id": "p0100-003", "verdict": "no-fix", "base_span": [933, 934], "note": "Base “case.” matches print; tier insertions at the same locus. FP."}
+{"flag_id": "p0100-004", "verdict": "no-fix", "base_span": [939, 939], "note": "360 inserts ” after 'case.'; base matches print. FP."}
+{"flag_id": "p0100-005", "verdict": "no-fix", "base_span": [1029, 1029], "note": "Locus (point at “voice) is correct in base; alignment drift from the genuine error at p0100-006. FP."}
+{"flag_id": "p0100-006", "verdict": "fix", "base_span": [1046, 1047], "note": "Spurious ‘ before “tense in base (print: “tense). TP.", "replacement": ""}
+{"flag_id": "p0100-007", "verdict": "no-fix", "base_span": [1265, 1265], "note": "360 inserts ' at the com-/plain hyphen break; base matches print. FP."}
+{"flag_id": "p0148-001", "verdict": "fix", "base_span": [638, 639], "note": "Base '.' between 'is' and 'possible' comes from a print/scan speck OUTSIDE the text column (360-DPI crop checked: no period at end of the line above; dot sits left of the text margin). Base contains a spurious period. TP.", "replacement": ""}
+{"flag_id": "p0148-002", "verdict": "no-fix", "base_span": [684, 685], "note": "Base '.' correct (comfort.); 360 read ','. FP."}
+{"flag_id": "p0197-001", "verdict": "no-fix", "base_span": [0, 0], "note": "360 produced illustration garbage ahead of CHAPTER XIX.; base clean. FP."}
+{"flag_id": "p0197-002", "verdict": "fix", "base_span": [25, 26], "note": "Base read the drop-cap line as 'FILIAL PIETY, discuss' — period misread as comma and 'To' dropped. Print: 'FILIAL PIETY.' + 'To discuss'. Punctuation-led fix (cf. P16 p287 't.'->'s,'). TP.", "replacement": ". To"}
+{"flag_id": "p0197-003", "verdict": "no-fix", "base_span": [426, 426], "note": "300 inserts ',' after 'translation.'; base matches print. FP."}
+{"flag_id": "p0197-004", "verdict": "no-fix", "base_span": [816, 816], "note": "Locus (before “Middle) is correct in base; the duplicated-quote error is p0197-006's locus. FP."}
+{"flag_id": "p0197-005", "verdict": "no-fix", "base_span": [832, 833], "note": "Base ” correct (Kingdom”); 360 read straight quote. FP."}
+{"flag_id": "p0197-006", "verdict": "fix", "base_span": [836, 838], "note": "Base duplicated the opening quote (““ Ceremony); print has one “. TP.", "replacement": "“"}
+{"flag_id": "p0197-007", "verdict": "no-fix", "base_span": [1449, 1450], "note": "Base ’ correct (Williams’s, gold v2 verified on image); 360 read ASCII '. FP."}
+{"flag_id": "p0197-008", "verdict": "no-fix", "base_span": [1497, 1497], "note": "Tiers insert quote marks before 'meagre'; base matches print. FP."}
