@@ -1,3 +1,16 @@
+# Latest checkpoint — P17 measured and audited (2026-10-23)
+
+**P17_COMPLETE · INDEPENDENT_ARTIFACT_AUDIT_PASS_WITH_SCOPE_LIMITS.** Second independent English historical book: *Chinese Characteristics* (1894), PDF SHA-256 `9bc540a0d8f26dac0c297ec14d6213f2fc75bb2668202650a7f97e91328bee72`. Six pages, 25 review flags, 7 human-confirmed edits, 1 known missed punctuation error: adjudicated precision **7/25 = 28.0%**, recall **7/8 = 87.5%**. Exact public 200-DPI OCR vs sealed-v2 gold and corrected artifacts re-scored **35/9,620 (0.3638%) → 23/9,620 (0.2391%)**.
+
+The original P16 corrected CER was resolved with a versioned erratum to **71/10,936 = 0.6492%** (historical 72-edit score kept). P17 v1→v2 gold has exactly three logged apostrophe substitutions; the 12-edit absolute improvement holds for either version. These remain **human-in-the-loop** findings, not automatic-correction or cross-language generalization claims.
+
+- Full [P17 outcome](p17/REPORT.md) and [independent check](p17/INDEPENDENT_AUDIT_2026-10-23.md).
+- Gold / OCR / corrected text and flags preserved on experiment branch. Source PDF and source-image spot-checks were not independently repeated by the reviewer.
+- **Next: P18 proposed, not executed:** auditable read-only review queue, source crops, gold QA, reviewer effort metrics, additional unseen-source holdout.
+- `main`, `v0.1.0`, P9/P10 untouched.
+
+---
+
 ## P15 measured follow-up (2026-10-23)
 
 **P15_STATUS: MEASURED / COMPLETE.** The original P14 selected five gold pages (32,119,284,286,501), source PDF SHA and Tesseract 5.3.4 / eng tessdata 4.1.0 / PSM 3 were held constant. P14 200 DPI image and OCR SHA values were reproduced exactly.
