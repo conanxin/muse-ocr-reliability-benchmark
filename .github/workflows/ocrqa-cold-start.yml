@@ -1,0 +1,64 @@
+name: OCR QA cold-start regression
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ocrqa-cold-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  cold-start:
+    name: Python ${{ matrix.python-version }} / clean fixture
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ['3.10', '3.12']
+    steps:
+      - name: Checkout (least privilege, no persisted token)
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - name: Setup Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install dependencies from the public release
+        run: python -m pip install -r review_workflow/requirements.txt
+      - name: Assert real first-run state and test discovery
+        working-directory: review_workflow
+        shell: bash
+        run: |
+          set -euo pipefail
+          if find fixtures/synthetic_book -type f \( -iname '*.png' -o -iname '*.jpg' -o -iname '*.jpeg' \) -print -quit | grep -q .; then
+            echo '::error::Synthetic fixture already has generated images; this is not a cold-start test.'
+            exit 1
+          fi
+          python - <<'PY'
+          import unittest
+          count = unittest.defaultTestLoader.discover('tests').countTestCases()
+          print(f'DISCOVERED_TESTS={count}')
+          if count < 19:
+              raise SystemExit(f'Expected at least 19 regression tests, found {count}')
+          PY
+      - name: Run first-time fixture bootstrap and all regression tests
+        working-directory: review_workflow
+        run: python -m unittest discover -s tests -v
+      - name: Validate bootstrap outputs and no mutation of committed sources
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s review_workflow/fixtures/synthetic_book/work/scans_360/p0101.png
+          test -s review_workflow/fixtures/synthetic_book/work/scans_360/p0102.png
+          git diff --exit-code -- review_workflow
+      - name: Check repeatability only after first-run PASS
+        working-directory: review_workflow
+        run: python -m unittest discover -s tests -v
