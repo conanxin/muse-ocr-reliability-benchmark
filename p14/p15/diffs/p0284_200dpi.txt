@@ -1,0 +1,10 @@
+page 284 dpi 200
+delete: gold=' ' -> ocr=''
+replace: gold='n' -> ocr='r'
+replace: gold='c' -> ocr='e'
+replace: gold='a' -> ocr='u'
+replace: gold='T' -> ocr='@'
+replace: gold='-' -> ocr='='
+replace: gold='R' -> ocr='B'
+replace: gold='.' -> ocr=','
+replace: gold='c' -> ocr='e'

@@ -1,0 +1,11 @@
+page 119 dpi 360
+insert: gold='' -> ocr='1'
+replace: gold='“' -> ocr='‘ '
+replace: gold='f' -> ocr='{'
+replace: gold='x' -> ocr='w'
+replace: gold='i' -> ocr='v'
+insert: gold='' -> ocr='‘'
+insert: gold='' -> ocr='D'
+insert: gold='' -> ocr='n'
+replace: gold='.' -> ocr=','
+replace: gold='.' -> ocr='s'

@@ -1,0 +1,400 @@
+{
+  "pages": [
+    32,
+    119,
+    284,
+    286,
+    501
+  ],
+  "dpis": [
+    200,
+    300,
+    360
+  ],
+  "per_dpi": {
+    "200": {
+      "totals": {
+        "char_edits": 76,
+        "gold_chars": 13435,
+        "word_edits": 33,
+        "gold_words": 2356,
+        "CER": 0.005656866393747674,
+        "WER": 0.01400679117147708
+      },
+      "per_page": {
+        "32": {
+          "char_edits": 26,
+          "gold_chars": 2495,
+          "CER": 0.010420841683366733,
+          "word_edits": 8,
+          "gold_words": 446,
+          "WER": 0.017937219730941704
+        },
+        "119": {
+          "char_edits": 14,
+          "gold_chars": 2969,
+          "CER": 0.004715392388009431,
+          "word_edits": 3,
+          "gold_words": 508,
+          "WER": 0.005905511811023622
+        },
+        "284": {
+          "char_edits": 9,
+          "gold_chars": 2359,
+          "CER": 0.0038151759220008477,
+          "word_edits": 8,
+          "gold_words": 419,
+          "WER": 0.01909307875894988
+        },
+        "286": {
+          "char_edits": 13,
+          "gold_chars": 2777,
+          "CER": 0.004681310767014764,
+          "word_edits": 11,
+          "gold_words": 484,
+          "WER": 0.022727272727272728
+        },
+        "501": {
+          "char_edits": 14,
+          "gold_chars": 2835,
+          "CER": 0.0049382716049382715,
+          "word_edits": 3,
+          "gold_words": 499,
+          "WER": 0.006012024048096192
+        }
+      },
+      "confusion_classes": {
+        "period_comma": {
+          "ops": 14,
+          "gold_chars": 12,
+          "pred_chars": 13
+        },
+        "curly_double_quotes": {
+          "ops": 8,
+          "gold_chars": 6,
+          "pred_chars": 3
+        },
+        "single_quotes_apostrophe": {
+          "ops": 10,
+          "gold_chars": 7,
+          "pred_chars": 3
+        },
+        "hyphen": {
+          "ops": 1,
+          "gold_chars": 1,
+          "pred_chars": 0
+        },
+        "letters": {
+          "ops": 30,
+          "gold_chars": 28,
+          "pred_chars": 27
+        },
+        "other": {
+          "ops": 11
+        }
+      },
+      "substitution_pairs_top": {
+        ".->,": 11,
+        "I->T": 3,
+        "c->e": 3,
+        "n->u": 2,
+        "’->”": 2,
+        "‘->¢": 2,
+        "u->n": 2,
+        "I->1": 1,
+        "i->t": 1,
+        "u->w": 1,
+        "“->‘": 1,
+        "e->c": 1,
+        "e->s": 1,
+        "x->w": 1,
+        "n->r": 1
+      }
+    },
+    "300": {
+      "totals": {
+        "char_edits": 106,
+        "gold_chars": 13435,
+        "word_edits": 82,
+        "gold_words": 2356,
+        "CER": 0.00788983997022702,
+        "WER": 0.03480475382003396
+      },
+      "per_page": {
+        "32": {
+          "char_edits": 34,
+          "gold_chars": 2495,
+          "CER": 0.013627254509018036,
+          "word_edits": 13,
+          "gold_words": 446,
+          "WER": 0.02914798206278027
+        },
+        "119": {
+          "char_edits": 13,
+          "gold_chars": 2969,
+          "CER": 0.004378578646008757,
+          "word_edits": 7,
+          "gold_words": 508,
+          "WER": 0.013779527559055118
+        },
+        "284": {
+          "char_edits": 15,
+          "gold_chars": 2359,
+          "CER": 0.00635862653666808,
+          "word_edits": 22,
+          "gold_words": 419,
+          "WER": 0.05250596658711217
+        },
+        "286": {
+          "char_edits": 22,
+          "gold_chars": 2777,
+          "CER": 0.00792221822110191,
+          "word_edits": 24,
+          "gold_words": 484,
+          "WER": 0.049586776859504134
+        },
+        "501": {
+          "char_edits": 22,
+          "gold_chars": 2835,
+          "CER": 0.007760141093474427,
+          "word_edits": 16,
+          "gold_words": 499,
+          "WER": 0.03206412825651302
+        }
+      },
+      "confusion_classes": {
+        "period_comma": {
+          "ops": 10,
+          "gold_chars": 9,
+          "pred_chars": 7
+        },
+        "curly_double_quotes": {
+          "ops": 10,
+          "gold_chars": 4,
+          "pred_chars": 7
+        },
+        "single_quotes_apostrophe": {
+          "ops": 11,
+          "gold_chars": 5,
+          "pred_chars": 6
+        },
+        "hyphen": {
+          "ops": 0,
+          "gold_chars": 0,
+          "pred_chars": 0
+        },
+        "letters": {
+          "ops": 61,
+          "gold_chars": 50,
+          "pred_chars": 48
+        },
+        "other": {
+          "ops": 14
+        }
+      },
+      "substitution_pairs_top": {
+        "i->1": 9,
+        "c->e": 6,
+        ".->,": 6,
+        "i->t": 4,
+        "n->u": 4,
+        ".->«": 3,
+        "u->a": 3,
+        "“->‘": 2,
+        "I->1": 1,
+        "E->I": 1,
+        "E->K": 1,
+        "’->”": 1,
+        "‘->¢": 1,
+        "e->s": 1,
+        "f->{": 1
+      }
+    },
+    "360": {
+      "totals": {
+        "char_edits": 92,
+        "gold_chars": 13435,
+        "word_edits": 62,
+        "gold_words": 2356,
+        "CER": 0.006847785634536658,
+        "WER": 0.02631578947368421
+      },
+      "per_page": {
+        "32": {
+          "char_edits": 34,
+          "gold_chars": 2495,
+          "CER": 0.013627254509018036,
+          "word_edits": 15,
+          "gold_words": 446,
+          "WER": 0.033632286995515695
+        },
+        "119": {
+          "char_edits": 11,
+          "gold_chars": 2969,
+          "CER": 0.00370495116200741,
+          "word_edits": 7,
+          "gold_words": 508,
+          "WER": 0.013779527559055118
+        },
+        "284": {
+          "char_edits": 16,
+          "gold_chars": 2359,
+          "CER": 0.006782534972445952,
+          "word_edits": 16,
+          "gold_words": 419,
+          "WER": 0.03818615751789976
+        },
+        "286": {
+          "char_edits": 14,
+          "gold_chars": 2777,
+          "CER": 0.005041411595246669,
+          "word_edits": 15,
+          "gold_words": 484,
+          "WER": 0.030991735537190084
+        },
+        "501": {
+          "char_edits": 17,
+          "gold_chars": 2835,
+          "CER": 0.00599647266313933,
+          "word_edits": 9,
+          "gold_words": 499,
+          "WER": 0.018036072144288578
+        }
+      },
+      "confusion_classes": {
+        "period_comma": {
+          "ops": 13,
+          "gold_chars": 13,
+          "pred_chars": 7
+        },
+        "curly_double_quotes": {
+          "ops": 8,
+          "gold_chars": 3,
+          "pred_chars": 5
+        },
+        "single_quotes_apostrophe": {
+          "ops": 9,
+          "gold_chars": 5,
+          "pred_chars": 4
+        },
+        "hyphen": {
+          "ops": 0,
+          "gold_chars": 0,
+          "pred_chars": 0
+        },
+        "letters": {
+          "ops": 49,
+          "gold_chars": 40,
+          "pred_chars": 37
+        },
+        "other": {
+          "ops": 13
+        }
+      },
+      "substitution_pairs_top": {
+        "i->1": 10,
+        ".->,": 7,
+        "i->t": 3,
+        ".->«": 3,
+        "n->u": 3,
+        ".->s": 2,
+        "i->w": 2,
+        "I->T": 2,
+        "i->v": 2,
+        "i-><": 1,
+        "I->1": 1,
+        "E->K": 1,
+        "‘->¢": 1,
+        "v->w": 1,
+        "f->{": 1
+      }
+    }
+  },
+  "fixed_new": {
+    "300": {
+      "fixed": 44,
+      "new": 77,
+      "persistent": 25,
+      "per_page": {
+        "32": {
+          "fixed": 13,
+          "new": 20,
+          "persistent": 11,
+          "sites_200": 24,
+          "sites_dpi": 31
+        },
+        "119": {
+          "fixed": 9,
+          "new": 9,
+          "persistent": 4,
+          "sites_200": 13,
+          "sites_dpi": 13
+        },
+        "284": {
+          "fixed": 5,
+          "new": 11,
+          "persistent": 4,
+          "sites_200": 9,
+          "sites_dpi": 15
+        },
+        "286": {
+          "fixed": 8,
+          "new": 17,
+          "persistent": 5,
+          "sites_200": 13,
+          "sites_dpi": 22
+        },
+        "501": {
+          "fixed": 9,
+          "new": 20,
+          "persistent": 1,
+          "sites_200": 10,
+          "sites_dpi": 21
+        }
+      }
+    },
+    "360": {
+      "fixed": 41,
+      "new": 57,
+      "persistent": 28,
+      "per_page": {
+        "32": {
+          "fixed": 13,
+          "new": 21,
+          "persistent": 11,
+          "sites_200": 24,
+          "sites_dpi": 32
+        },
+        "119": {
+          "fixed": 10,
+          "new": 7,
+          "persistent": 3,
+          "sites_200": 13,
+          "sites_dpi": 10
+        },
+        "284": {
+          "fixed": 4,
+          "new": 10,
+          "persistent": 5,
+          "sites_200": 9,
+          "sites_dpi": 15
+        },
+        "286": {
+          "fixed": 8,
+          "new": 9,
+          "persistent": 5,
+          "sites_200": 13,
+          "sites_dpi": 14
+        },
+        "501": {
+          "fixed": 6,
+          "new": 10,
+          "persistent": 4,
+          "sites_200": 10,
+          "sites_dpi": 14
+        }
+      }
+    }
+  },
+  "baseline_reproduced": true
+}

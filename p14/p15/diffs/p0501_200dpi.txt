@@ -1,0 +1,11 @@
+page 501 dpi 200
+replace: gold='“' -> ocr='* '
+insert: gold='' -> ocr=' '
+insert: gold='' -> ocr=' '
+replace: gold='“' -> ocr='¢ '
+replace: gold='“' -> ocr='¢ '
+replace: gold='I' -> ocr='T'
+insert: gold='' -> ocr=' '
+replace: gold='u' -> ocr='n'
+replace: gold='.' -> ocr=','
+replace: gold='F' -> ocr="I'"

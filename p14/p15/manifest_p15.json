@@ -1,0 +1,67 @@
+{
+  "task_id": "MUSE_OCR_P15_DPI_PUNCTUATION_ABLATION",
+  "date": "2026-10-23",
+  "source_pdf": "source/the_chinese_recorder_1896_v27.pdf",
+  "source_pdf_sha256": "98342b582bbe86b35cfe68bfdabf749c8e3813c2b5a07e74f4ce3c8d658c3b9e",
+  "pages": [
+    32,
+    119,
+    284,
+    286,
+    501
+  ],
+  "gold_sha256": {
+    "32": "f22cb6bd99a2cb6ca7024eb6ad2e0b439f4e8f8e85e2d640ecffd534032f4a57",
+    "119": "99ab1a662a67d8b95026fa0257b4d1848a53093ba2280f1098d2fcac24832b83",
+    "284": "bb482e3b84511f04723137995417eb3cbdddefa87240b909f5e6309da30de58e",
+    "286": "9ae3d24321db95dfa46732a66eddec533421c9a154cd1438fb57e9cbf2bccad3",
+    "501": "bfc99621662a8c984c373151f14cb99c7d3e251a0df5258a35273dfe73a82212"
+  },
+  "engine": "tesseract 5.3.4",
+  "eng_tessdata_sha256": "daa0c97d651c19fba3b25e81317cd697e9908c8208090c94c3905381c23fc047",
+  "ocr_command": "tesseract <render> stdout -l eng --psm 3",
+  "render_command": "pdftoppm -f P -l P -r {200|300|360} -gray -png -singlefile",
+  "renders_sha256": {
+    "p0032_200.png": "ab943fecbb1b0e25b674aeb23131e18d4bfd5aa0329031fceb81e3178004eaca",
+    "p0032_300.png": "8dcd4e3497447067894940864010ab95c2454930eba71aaaf6a2fb1a7f4445f6",
+    "p0032_360.png": "a239d7d44a4693ab6b59123f919be08ef407e51a49fd5c268d7492443ca925e2",
+    "p0119_200.png": "d29784e16a2f7067f151dcae53c9f89c83e307377deff09e41ab4247f78dfd75",
+    "p0119_300.png": "d312e4119c3613db0dc5e5cc551c45516a048bc40c234a6c1056b21ce6eae136",
+    "p0119_360.png": "b012e62ef17ddf84937db36f9ad07a248e1639a44a4e62b0c2fccc11c3ff2584",
+    "p0284_200.png": "3e0346f3ead07cdabc34629c781f3ce61c1edad05c7056b654d110b751abab90",
+    "p0284_300.png": "be1d35d9119b60aa2ab84ad0372899ad479dae8fed3092604f3e3106e22c1644",
+    "p0284_360.png": "9e434b409cfa92687b87af3759c3e6777b0b7c89165da5d14ba2c69070559249",
+    "p0286_200.png": "ed592d2a69d0ea411168799cc37d40bb098b0093616e9e1eea3beb4342f49d62",
+    "p0286_300.png": "789506b908040710634cee6ac9e49b8de099245794c981c4f6f5dbec5f478f8c",
+    "p0286_360.png": "4365e62f9a5709b0edd782f0279f3c26bc6a1b0594872cf76b899e218a68e0d5",
+    "p0501_200.png": "2003cb987b232f4fba8bd4aae95c1b0210a59475b07f76e69d1d08410906bf0a",
+    "p0501_300.png": "cdec925343a39685b3e5e152bc504a8e18a8bb7e5cd162e56d7b1b59de6491e8",
+    "p0501_360.png": "ebb2c5dd5de21f6026843b11529a200a25b53dfad91ec345e7d92404e0749934"
+  },
+  "ocr_sha256": {
+    "200/p0032.txt": "25400c7d5c03903c637f671f1728dfa2d81b520d238ced6a7828b4915cbf776e",
+    "200/p0119.txt": "55f1dab350b278e4352dd98c6a368ae8da92ef2d1aaa3b3fe63b8f832d1e48cc",
+    "200/p0284.txt": "949fa1b042e3d29b64184ca22a7494dc314b72dd1005752286f2c7325b445aec",
+    "200/p0286.txt": "4dd94eacadac1f464fd1159c606730f9667e6a136aeb2fd28b8fe626d5354dc5",
+    "200/p0501.txt": "93d7854d90aeb4f6a1b49efa3c89d590a9bf6eb325c32a739bda56bc09929873",
+    "300/p0032.txt": "1faefa3626c8088271b73a83c5a67196b029f2e032e68f63c4a3cabb54638fa0",
+    "300/p0119.txt": "2727061a128d10ff862710aeefc8de3e5c8f383679b689e29d3bfd5ae1b026ca",
+    "300/p0284.txt": "634523f132aaa11d6a72e18e3cb9e5428bc5b9a27c04834976aa1d8463e434f6",
+    "300/p0286.txt": "c7459ad7c72bdb20fcf306d7bf696ec566cb0b7e2ac412045636aa4fa0c0972a",
+    "300/p0501.txt": "f1f5378948c7496f3f346020ab4dfcb306b3ede87c34351b4e4782afa06e3ab9",
+    "360/p0032.txt": "5c158058a5dbba2ef66606b790ed330f815c674e2a0a438dee98e7d819e09299",
+    "360/p0119.txt": "fcf4eee9609fc6086ee50cabe0a283c3fa171301a22cbafdf510eaf80b4b8bfd",
+    "360/p0284.txt": "0bda9fe6b9f3401a78ab27347ee43a78daf8e215f12f18cc505790caab2531c4",
+    "360/p0286.txt": "b07af1e4e00eedaee3ac08aa2508e90ddfa816a76f794b6534919ac8cfdbb62c",
+    "360/p0501.txt": "1281b17d7613052ef1468a4f6d19d571cb860ab632c9ec2f22992a1104d0d0a0"
+  },
+  "baseline_reproduction": {
+    "render200_bit_identical_to_P14_scans": true,
+    "ocr200_files_hash_identical_to_P14_receipt": true,
+    "CER": "76/13435",
+    "WER": "33/2356"
+  },
+  "analysis_script": "p15/p15_analyze.py",
+  "results": "p15/results.json",
+  "diffs": "p15/diffs/ (per page x DPI opcode listings)"
+}
