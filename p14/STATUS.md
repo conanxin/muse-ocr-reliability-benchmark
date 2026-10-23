@@ -1,3 +1,24 @@
+## P15 measured follow-up (2026-10-23)
+
+**P15_STATUS: MEASURED / COMPLETE.** The original P14 selected five gold pages (32,119,284,286,501), source PDF SHA and Tesseract 5.3.4 / eng tessdata 4.1.0 / PSM 3 were held constant. P14 200 DPI image and OCR SHA values were reproduced exactly.
+
+| Render DPI | CER (char edits / 13,435) | WER (word edits / 2,356) |
+|---:|---:|---:|
+| **200** | **0.5657% (76)** | **1.4007% (33)** |
+| 300 | 0.7890% (106) | 3.4805% (82) |
+| 360 | 0.6848% (92) | 2.6316% (62) |
+
+- 300 DPI adds 30 Levenshtein character edits and 49 word edits relative to 200 DPI; 360 adds 16 character edits and 29 word edits.
+- 300 and 360 DPI reduce some period-as-comma substitutions, but letter-class error operations rise from 30 to 61/49, notably `i` becoming `1` or other letters.
+- The supplementary `fixed/new` columns (300: 44/77, 360: 41/57) count **SequenceMatcher alignment sites**, not necessarily minimum Levenshtein edit operations. Their arithmetic must not be presented as exact CER delta.
+- For these five pages and this OCR configuration, **retain 200 DPI**. This does not establish a universally optimal DPI, nor that P11's quality gates improved accuracy.
+- Punctuation, single quotes, curly quotes and hyphen categories in `results.json` can overlap when an operation touches multiple classes. Do not add all class subtotals as if they partition CER.
+- P15 artifacts: `p14/p15/manifest_p15.json`, `results.json`, `p15_analyze.py`, `ocr200/`, `ocr300/`, `ocr360/`, `diffs/`. Original PDF, gold transcripts and rendered PNG images remain local; public branch alone does not give a third party full source-to-gold reproducibility.
+
+**Suggested next question (not yet tested):** Could disagreement among OCR resolutions flag questionable punctuation for manual verification without changing the 200 DPI output? This must be tested on **separate gold pages** before publishing any correction precision/recall numbers. No global punctuation rewrite or release changes.
+
+---
+
 # P14 · Independent Book Pilot / Current Status
 
 **Status (2026-10-23): MEASURED / COMPLETE (Muse execution report).**  
