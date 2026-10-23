@@ -1,0 +1,43 @@
+{"flag_id": "p0033-000", "verdict": "keep", "basis": "page image: baseline punctuation matches print; disagreement is high-DPI noise"}
+{"flag_id": "p0033-001", "verdict": "keep", "basis": "page image: baseline punctuation matches print; disagreement is high-DPI noise"}
+{"flag_id": "p0033-002", "verdict": "keep", "basis": "page image: baseline punctuation matches print; disagreement is high-DPI noise"}
+{"flag_id": "p0033-003", "verdict": "fix", "replacement": "”", "basis": "page image: baseline punctuation differs from print"}
+{"flag_id": "p0033-004", "verdict": "keep", "basis": "page image: baseline punctuation matches print; disagreement is high-DPI noise"}
+{"flag_id": "p0033-005", "verdict": "fix", "replacement": "", "basis": "page image: baseline punctuation differs from print"}
+{"flag_id": "p0033-006", "verdict": "keep", "basis": "page image: baseline punctuation matches print; disagreement is high-DPI noise"}
+{"flag_id": "p0033-007", "verdict": "keep", "basis": "page image: baseline punctuation matches print; disagreement is high-DPI noise"}
+{"flag_id": "p0033-008", "verdict": "fix", "replacement": "‘", "basis": "page image: baseline punctuation differs from print"}
+{"flag_id": "p0033-009", "verdict": "fix", "replacement": "it.’", "basis": "page image: print reads 'it.’'; flagged site is the word 'it' — edit unit widened from the 1-char anchor to the word (documented override)", "base_span": [1447, 1449]}
+{"flag_id": "p0033-010", "verdict": "keep", "basis": "page image: baseline punctuation matches print; disagreement is high-DPI noise"}
+{"flag_id": "p0033-011", "verdict": "keep", "basis": "page image: baseline punctuation matches print; disagreement is high-DPI noise"}
+{"flag_id": "p0033-012", "verdict": "fix", "replacement": ".", "basis": "page image: baseline punctuation differs from print"}
+{"flag_id": "p0033-013", "verdict": "fix", "replacement": ".", "basis": "page image: baseline punctuation differs from print"}
+{"flag_id": "p0033-014", "verdict": "fix", "replacement": " “", "basis": "page image: baseline punctuation differs from print"}
+{"flag_id": "p0033-015", "verdict": "fix", "replacement": "”", "basis": "page image: baseline punctuation differs from print"}
+{"flag_id": "p0033-016", "verdict": "fix", "replacement": "“", "basis": "page image: baseline punctuation differs from print"}
+{"flag_id": "p0033-017", "verdict": "keep", "basis": "page image: baseline punctuation matches print; disagreement is high-DPI noise"}
+{"flag_id": "p0033-018", "verdict": "keep", "basis": "page image: baseline punctuation matches print; disagreement is high-DPI noise"}
+{"flag_id": "p0120-000", "verdict": "keep", "basis": "page image: baseline punctuation matches print; disagreement is high-DPI noise"}
+{"flag_id": "p0120-001", "verdict": "keep", "basis": "page image: baseline punctuation matches print; disagreement is high-DPI noise"}
+{"flag_id": "p0120-002", "verdict": "fix", "replacement": "", "basis": "page image: baseline punctuation differs from print"}
+{"flag_id": "p0120-003", "verdict": "fix", "replacement": "“", "basis": "page image: baseline punctuation differs from print"}
+{"flag_id": "p0120-004", "verdict": "fix", "replacement": "”", "basis": "page image: baseline punctuation differs from print"}
+{"flag_id": "p0120-005", "verdict": "keep", "basis": "page image: baseline punctuation matches print; disagreement is high-DPI noise"}
+{"flag_id": "p0120-006", "verdict": "fix", "replacement": "“", "basis": "page image: baseline punctuation differs from print"}
+{"flag_id": "p0120-007", "verdict": "fix", "replacement": "", "basis": "page image: baseline punctuation differs from print"}
+{"flag_id": "p0120-008", "verdict": "keep", "basis": "page image: baseline punctuation matches print; disagreement is high-DPI noise"}
+{"flag_id": "p0120-009", "verdict": "fix", "replacement": ".", "basis": "page image: baseline punctuation differs from print"}
+{"flag_id": "p0120-010", "verdict": "keep", "basis": "page image: baseline punctuation matches print; disagreement is high-DPI noise"}
+{"flag_id": "p0287-000", "verdict": "fix", "replacement": ".", "basis": "page image: baseline punctuation differs from print"}
+{"flag_id": "p0287-001", "verdict": "fix", "replacement": "“", "basis": "page image: baseline punctuation differs from print"}
+{"flag_id": "p0287-002", "verdict": "fix", "replacement": "", "basis": "page image: baseline punctuation differs from print"}
+{"flag_id": "p0287-003", "verdict": "keep", "basis": "page image: baseline punctuation matches print; disagreement is high-DPI noise"}
+{"flag_id": "p0287-004", "verdict": "keep", "basis": "page image: baseline punctuation matches print; disagreement is high-DPI noise"}
+{"flag_id": "p0287-005", "verdict": "keep", "basis": "page image: baseline punctuation matches print; disagreement is high-DPI noise"}
+{"flag_id": "p0287-006", "verdict": "fix", "replacement": ".", "basis": "page image: baseline punctuation differs from print"}
+{"flag_id": "p0503-000", "verdict": "fix", "replacement": ".", "basis": "page image: baseline punctuation differs from print"}
+{"flag_id": "p0503-001", "verdict": "keep", "basis": "page image: baseline punctuation matches print; disagreement is high-DPI noise"}
+{"flag_id": "p0503-002", "verdict": "fix", "replacement": "“", "basis": "page image: baseline punctuation differs from print"}
+{"flag_id": "p0503-003", "verdict": "keep", "basis": "page image: baseline punctuation matches print; disagreement is high-DPI noise"}
+{"flag_id": "p0503-004", "verdict": "fix", "replacement": "", "basis": "page image: baseline punctuation differs from print"}
+{"flag_id": "p0503-005", "verdict": "fix", "replacement": ".", "basis": "page image: baseline punctuation differs from print"}

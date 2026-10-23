@@ -1,0 +1,487 @@
+{
+  "pages": {
+    "33": {
+      "error_regions": 13,
+      "flags": 19,
+      "tp_flags": 7,
+      "fp_flags": 12,
+      "covered_regions": 7,
+      "fn_regions": 6,
+      "flag_rows": [
+        {
+          "flag_id": "p0033-000",
+          "gold_span": [
+            9,
+            10
+          ],
+          "hit_regions": [],
+          "tp": false
+        },
+        {
+          "flag_id": "p0033-001",
+          "gold_span": [
+            126,
+            127
+          ],
+          "hit_regions": [],
+          "tp": false
+        },
+        {
+          "flag_id": "p0033-002",
+          "gold_span": [
+            210,
+            211
+          ],
+          "hit_regions": [],
+          "tp": false
+        },
+        {
+          "flag_id": "p0033-003",
+          "gold_span": [
+            411,
+            412
+          ],
+          "hit_regions": [
+            1
+          ],
+          "tp": true
+        },
+        {
+          "flag_id": "p0033-004",
+          "gold_span": [
+            493,
+            494
+          ],
+          "hit_regions": [],
+          "tp": false
+        },
+        {
+          "flag_id": "p0033-005",
+          "gold_span": [
+            883,
+            884
+          ],
+          "hit_regions": [
+            3
+          ],
+          "tp": true
+        },
+        {
+          "flag_id": "p0033-006",
+          "gold_span": [
+            1144,
+            1145
+          ],
+          "hit_regions": [],
+          "tp": false
+        },
+        {
+          "flag_id": "p0033-007",
+          "gold_span": [
+            1236,
+            1237
+          ],
+          "hit_regions": [],
+          "tp": false
+        },
+        {
+          "flag_id": "p0033-008",
+          "gold_span": [
+            1393,
+            1394
+          ],
+          "hit_regions": [
+            4
+          ],
+          "tp": true
+        },
+        {
+          "flag_id": "p0033-009",
+          "gold_span": [
+            1442,
+            1443
+          ],
+          "hit_regions": [],
+          "tp": false
+        },
+        {
+          "flag_id": "p0033-010",
+          "gold_span": [
+            1597,
+            1598
+          ],
+          "hit_regions": [],
+          "tp": false
+        },
+        {
+          "flag_id": "p0033-011",
+          "gold_span": [
+            1611,
+            1612
+          ],
+          "hit_regions": [],
+          "tp": false
+        },
+        {
+          "flag_id": "p0033-012",
+          "gold_span": [
+            1769,
+            1770
+          ],
+          "hit_regions": [],
+          "tp": false
+        },
+        {
+          "flag_id": "p0033-013",
+          "gold_span": [
+            1773,
+            1774
+          ],
+          "hit_regions": [
+            8
+          ],
+          "tp": true
+        },
+        {
+          "flag_id": "p0033-014",
+          "gold_span": [
+            1810,
+            1812
+          ],
+          "hit_regions": [
+            10
+          ],
+          "tp": true
+        },
+        {
+          "flag_id": "p0033-015",
+          "gold_span": [
+            1971,
+            1972
+          ],
+          "hit_regions": [
+            11
+          ],
+          "tp": true
+        },
+        {
+          "flag_id": "p0033-016",
+          "gold_span": [
+            2019,
+            2020
+          ],
+          "hit_regions": [
+            12
+          ],
+          "tp": true
+        },
+        {
+          "flag_id": "p0033-017",
+          "gold_span": [
+            2152,
+            2153
+          ],
+          "hit_regions": [],
+          "tp": false
+        },
+        {
+          "flag_id": "p0033-018",
+          "gold_span": [
+            2334,
+            2335
+          ],
+          "hit_regions": [],
+          "tp": false
+        }
+      ],
+      "cer_before": 0.013311819281968536,
+      "char_edits_before": 33
+    },
+    "120": {
+      "error_regions": 6,
+      "flags": 11,
+      "tp_flags": 3,
+      "fp_flags": 8,
+      "covered_regions": 3,
+      "fn_regions": 3,
+      "flag_rows": [
+        {
+          "flag_id": "p0120-000",
+          "gold_span": [
+            63,
+            64
+          ],
+          "hit_regions": [],
+          "tp": false
+        },
+        {
+          "flag_id": "p0120-001",
+          "gold_span": [
+            366,
+            367
+          ],
+          "hit_regions": [],
+          "tp": false
+        },
+        {
+          "flag_id": "p0120-002",
+          "gold_span": [
+            455,
+            456
+          ],
+          "hit_regions": [
+            0
+          ],
+          "tp": true
+        },
+        {
+          "flag_id": "p0120-003",
+          "gold_span": [
+            757,
+            758
+          ],
+          "hit_regions": [],
+          "tp": false
+        },
+        {
+          "flag_id": "p0120-004",
+          "gold_span": [
+            922,
+            923
+          ],
+          "hit_regions": [],
+          "tp": false
+        },
+        {
+          "flag_id": "p0120-005",
+          "gold_span": [
+            1058,
+            1060
+          ],
+          "hit_regions": [],
+          "tp": false
+        },
+        {
+          "flag_id": "p0120-006",
+          "gold_span": [
+            1440,
+            1441
+          ],
+          "hit_regions": [
+            3
+          ],
+          "tp": true
+        },
+        {
+          "flag_id": "p0120-007",
+          "gold_span": [
+            2771,
+            2772
+          ],
+          "hit_regions": [],
+          "tp": false
+        },
+        {
+          "flag_id": "p0120-008",
+          "gold_span": [
+            1666,
+            1667
+          ],
+          "hit_regions": [],
+          "tp": false
+        },
+        {
+          "flag_id": "p0120-009",
+          "gold_span": [
+            2049,
+            2050
+          ],
+          "hit_regions": [
+            5
+          ],
+          "tp": true
+        },
+        {
+          "flag_id": "p0120-010",
+          "gold_span": [
+            2759,
+            2760
+          ],
+          "hit_regions": [],
+          "tp": false
+        }
+      ],
+      "cer_before": 0.007578491519307109,
+      "char_edits_before": 21
+    },
+    "287": {
+      "error_regions": 5,
+      "flags": 7,
+      "tp_flags": 4,
+      "fp_flags": 3,
+      "covered_regions": 4,
+      "fn_regions": 1,
+      "flag_rows": [
+        {
+          "flag_id": "p0287-000",
+          "gold_span": [
+            31,
+            32
+          ],
+          "hit_regions": [
+            0
+          ],
+          "tp": true
+        },
+        {
+          "flag_id": "p0287-001",
+          "gold_span": [
+            269,
+            270
+          ],
+          "hit_regions": [
+            1
+          ],
+          "tp": true
+        },
+        {
+          "flag_id": "p0287-002",
+          "gold_span": [
+            423,
+            424
+          ],
+          "hit_regions": [
+            2
+          ],
+          "tp": true
+        },
+        {
+          "flag_id": "p0287-003",
+          "gold_span": [
+            480,
+            481
+          ],
+          "hit_regions": [],
+          "tp": false
+        },
+        {
+          "flag_id": "p0287-004",
+          "gold_span": [
+            944,
+            945
+          ],
+          "hit_regions": [],
+          "tp": false
+        },
+        {
+          "flag_id": "p0287-005",
+          "gold_span": [
+            1565,
+            1566
+          ],
+          "hit_regions": [],
+          "tp": false
+        },
+        {
+          "flag_id": "p0287-006",
+          "gold_span": [
+            2397,
+            2398
+          ],
+          "hit_regions": [
+            3
+          ],
+          "tp": true
+        }
+      ],
+      "cer_before": 0.009494743981010512,
+      "char_edits_before": 28
+    },
+    "503": {
+      "error_regions": 5,
+      "flags": 6,
+      "tp_flags": 3,
+      "fp_flags": 3,
+      "covered_regions": 3,
+      "fn_regions": 2,
+      "flag_rows": [
+        {
+          "flag_id": "p0503-000",
+          "gold_span": [
+            142,
+            143
+          ],
+          "hit_regions": [
+            0
+          ],
+          "tp": true
+        },
+        {
+          "flag_id": "p0503-001",
+          "gold_span": [
+            855,
+            856
+          ],
+          "hit_regions": [
+            1
+          ],
+          "tp": true
+        },
+        {
+          "flag_id": "p0503-002",
+          "gold_span": [
+            1624,
+            1625
+          ],
+          "hit_regions": [],
+          "tp": false
+        },
+        {
+          "flag_id": "p0503-003",
+          "gold_span": [
+            1795,
+            1796
+          ],
+          "hit_regions": [],
+          "tp": false
+        },
+        {
+          "flag_id": "p0503-004",
+          "gold_span": [
+            1890,
+            1891
+          ],
+          "hit_regions": [],
+          "tp": false
+        },
+        {
+          "flag_id": "p0503-005",
+          "gold_span": [
+            2513,
+            2514
+          ],
+          "hit_regions": [
+            4
+          ],
+          "tp": true
+        }
+      ],
+      "cer_before": 0.0047497259773474606,
+      "char_edits_before": 13
+    }
+  },
+  "totals": {
+    "flags": 43,
+    "tp": 17,
+    "fp": 26,
+    "regions": 29,
+    "covered": 17,
+    "fn": 12,
+    "char_edits_before": 95,
+    "char_edits_after": 0,
+    "gold_chars": 10936,
+    "precision": 0.3953488372093023,
+    "recall": 0.5862068965517241,
+    "cer_before": 0.008686905632772494
+  }
+}

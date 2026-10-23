@@ -1,0 +1,22 @@
+{
+  "sealed_at": "2026-10-23T11:54:12.663822+08:00",
+  "method": "transcribed from 200-DPI page-image panels only, before any eval-page OCR/detector output was viewed; detector frozen earlier (FREEZE.json)",
+  "pages": {
+    "33": {
+      "sha256": "6d5497f02bc5e00478c050a442c5c186d40f735f2aba956ea5073dc20da24062",
+      "bytes": 2532
+    },
+    "120": {
+      "sha256": "cb33a3bf0eb4f3e8aa697c2d1539064328f034bb271c87744e89357471716f74",
+      "bytes": 2790
+    },
+    "287": {
+      "sha256": "20b17f12ca7215ac653279e3c95b55cdd36279598928f090165731c90c87916d",
+      "bytes": 2980
+    },
+    "503": {
+      "sha256": "36618f8a127eb88c8c4ac2b9994ab289221801f1dc98728f1b637f0fbef6182f",
+      "bytes": 2746
+    }
+  }
+}

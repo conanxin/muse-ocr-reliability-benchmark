@@ -1,0 +1,48 @@
+{
+  "task_id": "MUSE_OCR_P16_PUNCTUATION_REVIEW_GATE",
+  "frozen_at": "2026-10-23T11:51:57.684225+08:00",
+  "detector_sha256": "fd3142bb77a42a5598aa13ce7646ed97f1ab2de996005114fe2c082e335fe478",
+  "evaluate_sha256": "0c688c97e5828bddc841bd69d4d8fd902903e1e4c35566ebcaabba5f4fda6531",
+  "parameters": {
+    "PUNCT_SET": ".,;:!? “”„«»¢¥ ‘’'\" -—–= *",
+    "MERGE_GAP": 2,
+    "CONTEXT": 30,
+    "SCOPE_GOLD": "., “”‘’' -—",
+    "alignment": "difflib.SequenceMatcher(autojunk=False) on p14.normalize()d text",
+    "flag_rule": "three-DPI punctuation identities not all equal AND >=1 reading is punctuation",
+    "scoring": "flag-level precision, region-level recall, strict span intersection, no slack"
+  },
+  "dev_diagnostics": {
+    "pages": [
+      32,
+      119,
+      284,
+      286,
+      501
+    ],
+    "flags": 39,
+    "precision": 0.5641,
+    "recall": 0.7667,
+    "fn_cause": "mostly all-three-DPIs-agree-wrong (method ceiling); some alignment offset in quote-dense p32"
+  },
+  "eval_pages": [
+    33,
+    120,
+    287,
+    503
+  ],
+  "statement": "Detector and evaluator frozen BEFORE eval-page gold transcription and BEFORE any eval-page OCR/detector run. Eval gold will be transcribed from page images only.",
+  "amendments": [
+    {
+      "date": "2026-10-23",
+      "change": "evaluate.py: filter adjudications to the page's own flag ids when applying fixes (crash fix; scoring definitions unchanged). Detector untouched.",
+      "evaluate_sha256_after": "7f1730f6b6b6872787c631fffc6ddaafb8e01974186ccba8a51a96949e00e3a3",
+      "detector_sha256_unchanged": "fd3142bb77a42a5598aa13ce7646ed97f1ab2de996005114fe2c082e335fe478"
+    },
+    {
+      "date": "2026-10-23",
+      "change": "evaluate.py: adjudication rows may carry an explicit base_span override (human edit unit at the flagged site). Used once: p0033-009, anchor widened from 'i' to the word 'it' so the confirmed reading 'it.’' lands correctly. Scoring definitions unchanged; detector untouched.",
+      "evaluate_sha256_after": "198210fb1d3549ca9c0c97dca98b3809465c75a9a2face4806728e77b5c10820"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "pages": [
+    {
+      "page": 33,
+      "gold": "p16/gold_eval/p0033.txt",
+      "base200": "work/ocr/p0033.txt",
+      "flags": "p16/flags/p0033.jsonl",
+      "adjudications": "p16/adjudications.jsonl",
+      "corrected_out": "p16/corrected/p0033.txt"
+    },
+    {
+      "page": 120,
+      "gold": "p16/gold_eval/p0120.txt",
+      "base200": "work/ocr/p0120.txt",
+      "flags": "p16/flags/p0120.jsonl",
+      "adjudications": "p16/adjudications.jsonl",
+      "corrected_out": "p16/corrected/p0120.txt"
+    },
+    {
+      "page": 287,
+      "gold": "p16/gold_eval/p0287.txt",
+      "base200": "work/ocr/p0287.txt",
+      "flags": "p16/flags/p0287.jsonl",
+      "adjudications": "p16/adjudications.jsonl",
+      "corrected_out": "p16/corrected/p0287.txt"
+    },
+    {
+      "page": 503,
+      "gold": "p16/gold_eval/p0503.txt",
+      "base200": "work/ocr/p0503.txt",
+      "flags": "p16/flags/p0503.jsonl",
+      "adjudications": "p16/adjudications.jsonl",
+      "corrected_out": "p16/corrected/p0503.txt"
+    }
+  ],
+  "out": "p16/eval_results.json"
+}

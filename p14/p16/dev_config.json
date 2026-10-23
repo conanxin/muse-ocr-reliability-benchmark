@@ -1,0 +1,35 @@
+{
+  "pages": [
+    {
+      "page": 32,
+      "gold": "work/gold/p0032.txt",
+      "base200": "p15/ocr200/p0032.txt",
+      "flags": "p16/dev_flags/p0032.jsonl"
+    },
+    {
+      "page": 119,
+      "gold": "work/gold/p0119.txt",
+      "base200": "p15/ocr200/p0119.txt",
+      "flags": "p16/dev_flags/p0119.jsonl"
+    },
+    {
+      "page": 284,
+      "gold": "work/gold/p0284.txt",
+      "base200": "p15/ocr200/p0284.txt",
+      "flags": "p16/dev_flags/p0284.jsonl"
+    },
+    {
+      "page": 286,
+      "gold": "work/gold/p0286.txt",
+      "base200": "p15/ocr200/p0286.txt",
+      "flags": "p16/dev_flags/p0286.jsonl"
+    },
+    {
+      "page": 501,
+      "gold": "work/gold/p0501.txt",
+      "base200": "p15/ocr200/p0501.txt",
+      "flags": "p16/dev_flags/p0501.jsonl"
+    }
+  ],
+  "out": "p16/dev_results.json"
+}

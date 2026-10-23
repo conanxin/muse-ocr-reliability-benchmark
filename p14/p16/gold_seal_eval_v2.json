@@ -1,0 +1,23 @@
+{
+  "sealed_at": "2026-10-23T12:00:26.069037+08:00",
+  "version": "v2 (supersedes gold_seal_eval.json v1)",
+  "correction": "Uniform U+0027 -> U+2019 in eval golds: transcriber keyboard inconsistency; the printed glyph is the typographic apostrophe in all cases (verified on page images). Detector never reads gold, so flags are unaffected; CER figures recomputed on v2.",
+  "pages": {
+    "33": {
+      "sha256": "fc42245868da0f8c5ae30007367d14170344b67f821ce98a9480a2126fd6693c",
+      "bytes": 2534
+    },
+    "120": {
+      "sha256": "0a5c51ab2099190319906807bc19e7fe0ae6ca7c1f3cd9de3bcc60b0fe832f96",
+      "bytes": 2792
+    },
+    "287": {
+      "sha256": "99258836ee44836a541afd725c63b69fe667da489181574854353cdb5679a85c",
+      "bytes": 2992
+    },
+    "503": {
+      "sha256": "533102edf9d8005b1a05c8705728d1316404ee81bbd73d515d439653122b945c",
+      "bytes": 2750
+    }
+  }
+}

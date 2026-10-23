@@ -1,0 +1,74 @@
+{
+  "task_id": "MUSE_OCR_P16_PUNCTUATION_REVIEW_GATE",
+  "date": "2026-10-23",
+  "eval_pages": [
+    33,
+    120,
+    287,
+    503
+  ],
+  "detector_sha256": "fd3142bb77a42a5598aa13ce7646ed97f1ab2de996005114fe2c082e335fe478",
+  "evaluate_sha256": "198210fb1d3549ca9c0c97dca98b3809465c75a9a2face4806728e77b5c10820",
+  "gold_seal_eval_v2": {
+    "33": {
+      "sha256": "fc42245868da0f8c5ae30007367d14170344b67f821ce98a9480a2126fd6693c",
+      "bytes": 2534
+    },
+    "120": {
+      "sha256": "0a5c51ab2099190319906807bc19e7fe0ae6ca7c1f3cd9de3bcc60b0fe832f96",
+      "bytes": 2792
+    },
+    "287": {
+      "sha256": "99258836ee44836a541afd725c63b69fe667da489181574854353cdb5679a85c",
+      "bytes": 2992
+    },
+    "503": {
+      "sha256": "533102edf9d8005b1a05c8705728d1316404ee81bbd73d515d439653122b945c",
+      "bytes": 2750
+    }
+  },
+  "base200_source": "P14 work/ocr/*.txt (hashes verified against work/ocr_receipt.json)",
+  "ocr_command": "tesseract <render> stdout -l eng --psm 3",
+  "render_command": "pdftoppm -f P -l P -r {300|360} -gray -png -singlefile",
+  "renders_sha256": {
+    "p0033_300.png": "adb41c0fa7610f0251a70f158bf288ff84ba189be8e0c17127858770abdd43a8",
+    "p0033_360.png": "272b49d5bf1b11e15c8afc0a1475ce8e829fe391befb3bd0ce8a92fdc56e60e1",
+    "p0120_300.png": "770026ee9717b0cec8628004c6ae03f9cfa345fafca5e9b46ac61ecca39d65e0",
+    "p0120_360.png": "72f7f14fc844d28d50fecda4c709e8055569d4d5948fb076000244c9589034f0",
+    "p0287_300.png": "c81c63156824643b62d766ac1c2a70fdc6a3bee51eb6977cba63cf7788917743",
+    "p0287_360.png": "a3288a01074bc13a79c5a14cb29b8cf3d54e0715851311f85fc48637df06364b",
+    "p0503_300.png": "eadf9df83585709017109a7842741f3c61bbc0102d9286d9e90764162905fbb7",
+    "p0503_360.png": "50df9ad5d51c18fda89cab026560c256199349ae5ae146aa328b52d648dcb371"
+  },
+  "ocr_sha256": {
+    "300/p0033.txt": "027ae2e74b91f7d6dccf753e2590875ed5859827229b74f83b68f6c65c4ef025",
+    "300/p0120.txt": "319ee48c2cf1fc575c762e8b0a6060370e23fe066bbc7a38df5bb90d86e27230",
+    "300/p0287.txt": "34dd5d177f4b3e4b6a4bce8f987bd476905e74e7757e5b0b4d6630d83f759a8d",
+    "300/p0503.txt": "bcf030ca12f5dbef75589979139c0ca50399aaa1f882a9eb551e39e1cf7d7c0b",
+    "360/p0033.txt": "8300b7edb56115118ffb7522371248217a9acd857b91423d0d7edb24b80e1d44",
+    "360/p0120.txt": "7248fa3e796f16191e283f42ebf9065b5f5802a0f48e943c5aac102dfdfce39a",
+    "360/p0287.txt": "3e1b0be5bd1ec0f898ce1bb3a4c0586299ea371b0147f1b25e2d2b31ca8be77b",
+    "360/p0503.txt": "bdd2ff4fac96d8bcf2eb88a31be5082a4b60e6f89dfef303bb00898e923d0a54"
+  },
+  "flags": {
+    "p0033.jsonl": 19,
+    "p0120.jsonl": 11,
+    "p0287.jsonl": 7,
+    "p0503.jsonl": 6
+  },
+  "headline_adjudicated": {
+    "flags_total": 43,
+    "true_positives": 23,
+    "false_positives": 20,
+    "false_negatives": 4,
+    "precision": 0.5348837209302325,
+    "recall": 0.8518518518518519,
+    "cer_before": 0.008686905632772494,
+    "cer_after_confirmed_review": 0.006583760058522311
+  },
+  "mechanical_proxy_frozen_evaluator": {
+    "precision": 0.3953,
+    "recall": 0.5862,
+    "note": "region/strict-intersection proxy; differs from adjudicated figures for documented reasons (see Notion P16)"
+  }
+}
