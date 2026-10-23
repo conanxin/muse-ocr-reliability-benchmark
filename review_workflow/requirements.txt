@@ -1,0 +1,6 @@
+# Python dependencies for the review workflow package.
+# review_tool queue crops need Pillow; pipeline background-flattening and
+# the fixture generator need Pillow + NumPy.
+# System tools (pipeline.py only): Poppler (pdftoppm), Tesseract + eng.traineddata.
+Pillow>=9.0
+numpy>=1.24

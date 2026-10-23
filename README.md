@@ -1,6 +1,6 @@
 # Muse OCR Reliability Benchmark
 
-**状态：** [v0.1.0 Research Beta · Pre-release](https://github.com/conanxin/muse-ocr-reliability-benchmark/releases/tag/v0.1.0)（2026-10-15 已发布）
+**状态：** [v0.2.0 Research Beta · Pre-release](https://github.com/conanxin/muse-ocr-reliability-benchmark/releases/tag/v0.2.0)（2026-10-23 发布）；[v0.1.0](https://github.com/conanxin/muse-ocr-reliability-benchmark/releases/tag/v0.1.0)（2026-10-15）保持不变
 **仓库：** [conanxin/muse-ocr-reliability-benchmark](https://github.com/conanxin/muse-ocr-reliability-benchmark)
 **许可：** MIT（代码）
 
@@ -13,6 +13,14 @@
 | `generate_cases.py` | 案例生成脚本（需完整项目目录） |
 | `METRICS.md` | 指标定义与基线 |
 | `CHANGELOG.md` | 版本历史 |
+
+## v0.2.0 新增：人机协同复核工作流
+
+`review_workflow/` 是可复用的 OCR 标点复核工具包（三档 DPI 分歧提疑点 → 原图裁图 →
+人工判定 → 仅批准修订写入副本），含失败关闭门禁、完整性校验、合成测试包与 19 项
+测试。指标自本版起正名：46.9% 为**人工审核有效产出率**、61.2% 为**机械疑点命中率**、
+37.1% 为**本书人工修订覆盖率**（P18 第三本书）。安装与用法见
+[review_workflow/README.md](review_workflow/README.md)。
 
 ## 快速开始
 

@@ -1,0 +1,18 @@
+{
+ "title": "Synthetic fixture book (invented text, not a real publication)",
+ "pages": [
+  101,
+  102
+ ],
+ "blank_pages": [],
+ "gold_dir": "gold",
+ "seal": "gold_seal.json",
+ "tiers": [
+  200,
+  300,
+  360
+ ],
+ "baseline_tier": 200,
+ "crop_tier": 360,
+ "control_seed": 7
+}
