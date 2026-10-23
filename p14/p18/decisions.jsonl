@@ -1,0 +1,98 @@
+{"ts": "2026-10-23T14:33:06+08:00", "item_id": "Q004", "page": 233, "decision": "KEEP", "crop": "queue/crops/Q004.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:33:06+08:00", "item_id": "Q008", "page": 233, "decision": "KEEP", "crop": "queue/crops/Q008.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:33:06+08:00", "item_id": "Q010", "page": 233, "decision": "KEEP", "crop": "queue/crops/Q010.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:33:06+08:00", "item_id": "Q016", "page": 233, "decision": "KEEP", "crop": "queue/crops/Q016.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:33:06+08:00", "item_id": "Q019", "page": 233, "decision": "KEEP", "crop": "queue/crops/Q019.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:33:07+08:00", "item_id": "Q020", "page": 233, "decision": "KEEP", "crop": "queue/crops/Q020.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:33:07+08:00", "item_id": "Q022", "page": 233, "decision": "KEEP", "crop": "queue/crops/Q022.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:33:07+08:00", "item_id": "Q033", "page": 233, "decision": "KEEP", "crop": "queue/crops/Q033.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:33:07+08:00", "item_id": "Q034", "page": 233, "decision": "KEEP", "crop": "queue/crops/Q034.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:33:07+08:00", "item_id": "Q040", "page": 233, "decision": "KEEP", "crop": "queue/crops/Q040.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:33:07+08:00", "item_id": "Q045", "page": 233, "decision": "KEEP", "crop": "queue/crops/Q045.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:33:07+08:00", "item_id": "Q049", "page": 233, "decision": "KEEP", "crop": "queue/crops/Q049.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:33:07+08:00", "item_id": "Q050", "page": 233, "decision": "KEEP", "crop": "queue/crops/Q050.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:33:07+08:00", "item_id": "Q065", "page": 233, "decision": "KEEP", "crop": "queue/crops/Q065.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:33:07+08:00", "item_id": "Q072", "page": 233, "decision": "KEEP", "crop": "queue/crops/Q072.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:33:07+08:00", "item_id": "Q074", "page": 233, "decision": "KEEP", "crop": "queue/crops/Q074.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:33:07+08:00", "item_id": "Q082", "page": 233, "decision": "KEEP", "crop": "queue/crops/Q082.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:33:07+08:00", "item_id": "Q087", "page": 233, "decision": "KEEP", "crop": "queue/crops/Q087.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:33:07+08:00", "item_id": "Q024", "page": 233, "decision": "CONFIRM_FIX", "crop": "queue/crops/Q024.png", "crop_method": "tsv_word_box", "corrected": ",", "note": "plate has comma after (East of the Pass') paren; base missed it; seen on Q036 crop + band"}
+{"ts": "2026-10-23T14:33:08+08:00", "item_id": "Q043", "page": 233, "decision": "CONFIRM_FIX", "crop": "queue/crops/Q043.png", "crop_method": "tsv_word_box", "corrected": "’", "note": "plate apostrophe in Kanghi's is curly U+2019 (apos_recheck); base read ASCII"}
+{"ts": "2026-10-23T14:33:08+08:00", "item_id": "Q067", "page": 233, "decision": "CONFIRM_FIX", "crop": "queue/crops/Q067.png", "crop_method": "tsv_word_box", "corrected": "¹", "note": "plate glyph is superscript footnote marker 1, base read apostrophe"}
+{"ts": "2026-10-23T14:33:08+08:00", "item_id": "Q069", "page": 233, "decision": "CONFIRM_FIX", "crop": "queue/crops/Q069.png", "crop_method": "tsv_word_box", "corrected": ".", "note": "footnote ends p. 296. with period; base read comma"}
+{"ts": "2026-10-23T14:33:08+08:00", "item_id": "Q091", "page": 233, "decision": "CONFIRM_FIX", "crop": "queue/crops/Q091.png", "crop_method": "tsv_word_box", "corrected": "’", "note": "plate l'Asie apostrophe is curly; base read '!'"}
+{"ts": "2026-10-23T14:33:08+08:00", "item_id": "Q096", "page": 233, "decision": "CONFIRM_FIX", "crop": "queue/crops/Q096.png", "crop_method": "tsv_word_box", "corrected": "‘", "note": "plate opening single quote before East; base read '*'"}
+{"ts": "2026-10-23T14:33:41+08:00", "item_id": "Q036", "page": 233, "decision": "KEEP", "crop": "queue/crops/Q036.png", "crop_method": "tsv_word_box", "note": "second-look crop: 'whole territory.' then Manchuria, no quote on plate"}
+{"ts": "2026-10-23T14:33:41+08:00", "item_id": "Q081", "page": 233, "decision": "CONFIRM_FIX", "crop": "queue/crops/Q081.png", "crop_method": "tsv_word_box", "corrected": ",", "note": "plate: valley of the Nonni, (comma at line end); base missed it"}
+{"ts": "2026-10-23T14:34:21+08:00", "item_id": "Q003", "page": 475, "decision": "KEEP", "crop": "queue/crops/Q003.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:34:22+08:00", "item_id": "Q009", "page": 475, "decision": "KEEP", "crop": "queue/crops/Q009.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:34:22+08:00", "item_id": "Q035", "page": 475, "decision": "KEEP", "crop": "queue/crops/Q035.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:34:22+08:00", "item_id": "Q051", "page": 475, "decision": "KEEP", "crop": "queue/crops/Q051.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:34:22+08:00", "item_id": "Q052", "page": 475, "decision": "KEEP", "crop": "queue/crops/Q052.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:34:22+08:00", "item_id": "Q058", "page": 475, "decision": "KEEP", "crop": "queue/crops/Q058.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:34:22+08:00", "item_id": "Q070", "page": 475, "decision": "KEEP", "crop": "queue/crops/Q070.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:34:22+08:00", "item_id": "Q077", "page": 475, "decision": "KEEP", "crop": "queue/crops/Q077.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:34:22+08:00", "item_id": "Q079", "page": 475, "decision": "KEEP", "crop": "queue/crops/Q079.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:34:22+08:00", "item_id": "Q090", "page": 475, "decision": "KEEP", "crop": "queue/crops/Q090.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:34:22+08:00", "item_id": "Q025", "page": 475, "decision": "KEEP", "crop": "queue/crops/Q025.png", "crop_method": "tsv_word_box", "note": "letter garble war->wt; no punctuation error at span; 300 period spurious"}
+{"ts": "2026-10-23T14:34:22+08:00", "item_id": "Q046", "page": 475, "decision": "KEEP", "crop": "queue/crops/Q046.png", "crop_method": "tsv_word_box", "note": "letter garble country->cow try; hyphen in 360 reading spurious at this span"}
+{"ts": "2026-10-23T14:34:22+08:00", "item_id": "Q002", "page": 475, "decision": "CONFIRM_FIX", "crop": "queue/crops/Q002.png", "crop_method": "tsv_word_box", "corrected": "”", "note": "plate: reality ”—most (closing quote present); base dropped it"}
+{"ts": "2026-10-23T14:34:22+08:00", "item_id": "Q061", "page": 475, "decision": "CONFIRM_FIX", "crop": "queue/crops/Q061.png", "crop_method": "tsv_word_box", "corrected": ";", "note": "plate: generals ; (semicolon, French-spaced); base read ':'"}
+{"ts": "2026-10-23T14:34:22+08:00", "item_id": "Q062", "page": 475, "decision": "CONFIRM_FIX", "crop": "queue/crops/Q062.png", "crop_method": "tsv_word_box", "corrected": ".", "note": "plate: for the court. (period, sentence end); base read ','"}
+{"ts": "2026-10-23T14:34:45+08:00", "item_id": "Q064", "page": 475, "decision": "CONFIRM_FIX", "crop": "queue/crops/Q064.png", "crop_method": "tsv_word_box", "corrected": "s,", "note": "plate: walls, ; base garbled to 'wally' losing the comma; span replacement y->s, restores text"}
+{"ts": "2026-10-23T14:35:22+08:00", "item_id": "Q005", "page": 72, "decision": "KEEP", "crop": "queue/crops/Q005.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:35:22+08:00", "item_id": "Q013", "page": 72, "decision": "KEEP", "crop": "queue/crops/Q013.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:35:22+08:00", "item_id": "Q015", "page": 72, "decision": "KEEP", "crop": "queue/crops/Q015.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:35:22+08:00", "item_id": "Q041", "page": 72, "decision": "KEEP", "crop": "queue/crops/Q041.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:35:22+08:00", "item_id": "Q047", "page": 72, "decision": "KEEP", "crop": "queue/crops/Q047.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:35:22+08:00", "item_id": "Q057", "page": 72, "decision": "KEEP", "crop": "queue/crops/Q057.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:35:22+08:00", "item_id": "Q060", "page": 72, "decision": "KEEP", "crop": "queue/crops/Q060.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:35:23+08:00", "item_id": "Q073", "page": 72, "decision": "KEEP", "crop": "queue/crops/Q073.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:35:23+08:00", "item_id": "Q075", "page": 72, "decision": "KEEP", "crop": "queue/crops/Q075.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:35:23+08:00", "item_id": "Q085", "page": 72, "decision": "KEEP", "crop": "queue/crops/Q085.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:35:23+08:00", "item_id": "Q095", "page": 72, "decision": "KEEP", "crop": "queue/crops/Q095.png", "crop_method": "tsv_word_box", "note": "'III.,' garbled by base to '1L,' - period entangled in letter garble, no clean span fix"}
+{"ts": "2026-10-23T14:35:23+08:00", "item_id": "Q007", "page": 72, "decision": "CONFIRM_FIX", "crop": "queue/crops/Q007.png", "crop_method": "tsv_word_box", "corrected": "’", "note": "plate: Yangtsz', (apostrophe before comma); base dropped it"}
+{"ts": "2026-10-23T14:35:23+08:00", "item_id": "Q021", "page": 72, "decision": "CONFIRM_FIX", "crop": "queue/crops/Q021.png", "crop_method": "tsv_word_box", "corrected": "¹", "note": "footnote marker is superscript 1 on plate; base read plain '1'"}
+{"ts": "2026-10-23T14:35:23+08:00", "item_id": "Q088", "page": 72, "decision": "CONFIRM_FIX", "crop": "queue/crops/Q088.png", "crop_method": "tsv_word_box", "corrected": "’", "note": "plate Guignes' apostrophe is curly (apos_recheck); base read ASCII"}
+{"ts": "2026-10-23T14:35:50+08:00", "item_id": "Q006", "page": 637, "decision": "KEEP", "crop": "queue/crops/Q006.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:35:50+08:00", "item_id": "Q023", "page": 637, "decision": "KEEP", "crop": "queue/crops/Q023.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:35:50+08:00", "item_id": "Q027", "page": 637, "decision": "KEEP", "crop": "queue/crops/Q027.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:35:50+08:00", "item_id": "Q029", "page": 637, "decision": "KEEP", "crop": "queue/crops/Q029.png", "crop_method": "tsv_word_box", "note": "the closing quote itself is correct on plate; the comma before it that base dropped is a separate uncovered site"}
+{"ts": "2026-10-23T14:35:50+08:00", "item_id": "Q038", "page": 637, "decision": "KEEP", "crop": "queue/crops/Q038.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:35:50+08:00", "item_id": "Q039", "page": 637, "decision": "KEEP", "crop": "queue/crops/Q039.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:35:50+08:00", "item_id": "Q053", "page": 637, "decision": "KEEP", "crop": "queue/crops/Q053.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:35:50+08:00", "item_id": "Q055", "page": 637, "decision": "KEEP", "crop": "queue/crops/Q055.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:35:50+08:00", "item_id": "Q056", "page": 637, "decision": "KEEP", "crop": "queue/crops/Q056.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:35:50+08:00", "item_id": "Q068", "page": 637, "decision": "KEEP", "crop": "queue/crops/Q068.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:35:50+08:00", "item_id": "Q080", "page": 637, "decision": "KEEP", "crop": "queue/crops/Q080.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:35:50+08:00", "item_id": "Q083", "page": 637, "decision": "KEEP", "crop": "queue/crops/Q083.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:35:51+08:00", "item_id": "Q092", "page": 637, "decision": "KEEP", "crop": "queue/crops/Q092.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:35:51+08:00", "item_id": "Q094", "page": 637, "decision": "KEEP", "crop": "queue/crops/Q094.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:36:13+08:00", "item_id": "Q001", "page": 395, "decision": "KEEP", "crop": "queue/crops/Q001.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:36:13+08:00", "item_id": "Q026", "page": 395, "decision": "KEEP", "crop": "queue/crops/Q026.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:36:13+08:00", "item_id": "Q044", "page": 395, "decision": "KEEP", "crop": "queue/crops/Q044.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:36:13+08:00", "item_id": "Q078", "page": 395, "decision": "KEEP", "crop": "queue/crops/Q078.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:36:13+08:00", "item_id": "Q089", "page": 395, "decision": "KEEP", "crop": "queue/crops/Q089.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:36:14+08:00", "item_id": "Q093", "page": 395, "decision": "KEEP", "crop": "queue/crops/Q093.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:36:14+08:00", "item_id": "Q032", "page": 395, "decision": "CONFIRM_FIX", "crop": "queue/crops/Q032.png", "crop_method": "tsv_word_box", "corrected": "-", "note": "plate: 'Be-' line-break hyphen before 'sides'; base dropped it (read 'Be sides')"}
+{"ts": "2026-10-23T14:36:14+08:00", "item_id": "Q063", "page": 395, "decision": "CONFIRM_FIX", "crop": "queue/crops/Q063.png", "crop_method": "tsv_word_box", "corrected": "", "note": "base hallucinated two em-dashes from a scan speck at page top; plate margin is blank"}
+{"ts": "2026-10-23T14:36:14+08:00", "item_id": "Q084", "page": 395, "decision": "CONFIRM_FIX", "crop": "queue/crops/Q084.png", "crop_method": "tsv_word_box", "corrected": ".", "note": "plate: 'appearance.' period; base dropped it"}
+{"ts": "2026-10-23T14:36:14+08:00", "item_id": "Q098", "page": 395, "decision": "CONFIRM_FIX", "crop": "queue/crops/Q098.png", "crop_method": "tsv_word_box", "corrected": "‘", "note": "plate opening single quote before 'white rice fish'; base read cent sign"}
+{"ts": "2026-10-23T14:37:48+08:00", "item_id": "Q012", "page": 314, "decision": "KEEP", "crop": "queue/crops/Q012.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:37:48+08:00", "item_id": "Q017", "page": 314, "decision": "KEEP", "crop": "queue/crops/Q017.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:37:48+08:00", "item_id": "Q028", "page": 314, "decision": "KEEP", "crop": "queue/crops/Q028.png", "crop_method": "tsv_word_box", "note": "letter garble: base cent-sign for 'i' of i.e.; plate glyph is a letter, not punctuation"}
+{"ts": "2026-10-23T14:37:48+08:00", "item_id": "Q031", "page": 314, "decision": "KEEP", "crop": "queue/crops/Q031.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:37:48+08:00", "item_id": "Q048", "page": 314, "decision": "KEEP", "crop": "queue/crops/Q048.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:37:48+08:00", "item_id": "Q037", "page": 153, "decision": "KEEP", "crop": "queue/crops/Q037.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:37:48+08:00", "item_id": "Q042", "page": 153, "decision": "KEEP", "crop": "queue/crops/Q042.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:37:48+08:00", "item_id": "Q076", "page": 153, "decision": "KEEP", "crop": "queue/crops/Q076.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:37:48+08:00", "item_id": "Q030", "page": 798, "decision": "KEEP", "crop": "queue/crops/Q030.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:37:48+08:00", "item_id": "Q059", "page": 798, "decision": "KEEP", "crop": "queue/crops/Q059.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:37:48+08:00", "item_id": "Q066", "page": 798, "decision": "KEEP", "crop": "queue/crops/Q066.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:37:48+08:00", "item_id": "Q071", "page": 798, "decision": "KEEP", "crop": "queue/crops/Q071.png", "crop_method": "tsv_word_box"}
+{"ts": "2026-10-23T14:37:48+08:00", "item_id": "Q011", "page": 314, "decision": "CONFIRM_FIX", "crop": "queue/crops/Q011.png", "crop_method": "tsv_word_box", "corrected": "", "note": "plate line view: no quote glyph before 'From 1711' (indented block quote); base read a scan speck as a quote"}
+{"ts": "2026-10-23T14:37:49+08:00", "item_id": "Q086", "page": 314, "decision": "CONFIRM_FIX", "crop": "queue/crops/Q086.png", "crop_method": "tsv_word_box", "corrected": "¹", "note": "plate glyph after 'detail.' is the footnote marker 1 (superscript); base read a closing quote"}
+{"ts": "2026-10-23T14:37:49+08:00", "item_id": "Q097", "page": 314, "decision": "CONFIRM_FIX", "crop": "queue/crops/Q097.png", "crop_method": "tsv_word_box", "corrected": "", "note": "asterisk not on plate (scan artifact); span deletion only - adjacent single-quote glyph is a separate position"}
+{"ts": "2026-10-23T14:37:49+08:00", "item_id": "Q014", "page": 153, "decision": "CONFIRM_FIX", "crop": "queue/crops/Q014.png", "crop_method": "tsv_word_box", "corrected": "¹", "note": "footnote marker (superscript 1) before Davis's; base read '!'"}
+{"ts": "2026-10-23T14:37:49+08:00", "item_id": "Q018", "page": 153, "decision": "CONFIRM_FIX", "crop": "queue/crops/Q018.png", "crop_method": "tsv_word_box", "corrected": ".", "note": "plate: head-waters. (period); base read ','; 300 agreed with plate"}
+{"ts": "2026-10-23T14:37:49+08:00", "item_id": "Q054", "page": 153, "decision": "CONFIRM_FIX", "crop": "queue/crops/Q054.png", "crop_method": "tsv_word_box", "corrected": "¹", "note": "plate: scholars. + superscript footnote marker 1; base read ASCII apostrophe"}

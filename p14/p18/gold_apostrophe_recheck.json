@@ -1,0 +1,33 @@
+{
+ "warnings": 11,
+ "confirmed_curly_u2019": 11,
+ "confirmed_straight": 0,
+ "crops": [
+  "apos_p153_davis.png",
+  "apos_p153_richthofen.png",
+  "apos_p233_asie_line.png",
+  "apos_p233_footnote.png",
+  "apos_p233_kanghi.png",
+  "apos_p395_richardson.png",
+  "apos_p395_yangtsz.png",
+  "apos_p475_majesty.png",
+  "apos_p72_davis.png",
+  "apos_p72_footnote.png",
+  "apos_p72_guignes.png",
+  "apos_p72_yangtsz.png",
+  "apos_p798_fergusson.png"
+ ],
+ "sites": [
+  "Yangtsz'",
+  "Guignes'",
+  "Davis's",
+  "Richthofen's",
+  "Davis's",
+  "l'Asie",
+  "Kanghi's",
+  "Yangtsz'",
+  "Richardson's",
+  "Majesty's",
+  "Fergusson's"
+ ]
+}

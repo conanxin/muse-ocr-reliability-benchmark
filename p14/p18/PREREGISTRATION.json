@@ -1,0 +1,51 @@
+{
+ "control_group": "Random unflagged punctuation sites, count equal to the flag count, sampled from base-text punctuation positions (classes . , ; : ! ? ' ' \" -) excluding positions within +/-2 chars of any flag span; RNG seed 20261023; controls are mixed into the review queue under neutral IDs; the flag/control mapping is sealed until all decisions are logged.",
+ "detector": "P16 frozen detector reused byte-for-byte (detector.py SHA-256 fd3142bb14849db9d3d90f342b237b543dffc55201b490c884236d87fae78071), zero tuning on this book's outputs.",
+ "gold_method": "Independent visual transcription from the 200-DPI page images before any OCR of these pages; sealed with SHA-256 manifest before scoring.",
+ "goldcheck": "Reusable checks applied to the sealed gold: (a) seal hashes re-verified against files; (b) ASCII apostrophe U+0027 occurrences in a curly-apostrophe book produce WARNINGS only (never auto-replaced); each warning must be resolved by image inspection with a versioned gold v2 if the plate shows a curly apostrophe.",
+ "locked_before_ocr": true,
+ "object": "Validate the P16/P17 human-review workflow as a reusable tool on a third, unseen public-domain book.",
+ "page_selection": "Approximately evenly spaced (~8%..89%) across the volume, fixed before OCR and before gold transcription.",
+ "pages_pdf": [
+  72,
+  153,
+  233,
+  314,
+  395,
+  475,
+  556,
+  637,
+  718,
+  798
+ ],
+ "plate_rule": "A page that is a full-page plate or front matter is replaced by the nearest following body-text page; decided from the image before transcription. (Not triggered: all ten pages are body text; four carry footnotes, two are section-opening pages.)",
+ "registered": "2026-10-23T14:10:00+08:00",
+ "review_protocol": "Every queue item is judged against the page image (per-item crop from the 360-DPI render, page band on demand). Decisions: CONFIRM_FIX (with the corrected span written out), KEEP (base reading is what the plate shows), UNCERTAIN. Every decision is appended to decisions.jsonl with an ISO timestamp and the item's crop path as image provenance. Review time = last minus first decision timestamp in the session log.",
+ "scoring": "P16/P17 dual-track adjudication scoring (human track = coverage by confirmed flags; mechanical track = detector-span/gold region alignment), plus workflow metrics: flags per page, reviews per confirmed fix, edits saved per review, review seconds per item. All scoring normalizes both sides before comparison (P17 erratum fix). Only CONFIRM_FIX decisions are applied, to an experimental copy; original OCR files are never overwritten.",
+ "source": {
+  "author": "S. Wells Williams",
+  "edition": "London: W. H. Allen, 1883 (public domain)",
+  "file": "source/middle_kingdom_1883_williams_v1.pdf",
+  "ia_id": "middlekingdomas05willgoog",
+  "pdf_bytes": 48319915,
+  "pdf_pages": 897,
+  "pdf_sha256": "d8cbd95773d90053ba5dd5c94b8a19d86b30f70684f2cbf492fa4aa6c800708d",
+  "title": "The Middle Kingdom: A Survey of the Geography, Government, Literature, Social Life, Arts, and History of the Chinese Empire and its Inhabitants, Vol. I (revised edition)"
+ },
+ "task": "MUSE_OCR_P18_REVIEW_WORKFLOW",
+ "tiers": "200 DPI = body baseline; 300/360 DPI = flag discovery only.",
+ "transcription_conventions": [
+  "Running heads and printed page numbers included.",
+  "Printed line breaks preserved; hyphenation as printed.",
+  "French spacing before ; recorded as printed per instance (this edition mixes spaced and tight semicolons).",
+  "Footnote markers as superscript digits (¹); footnote text appended after the body.",
+  "Inline Chinese characters transcribed as identified glyphs; on PDF p.637 the two thread-graph orientation variants are both encoded 絲 (orientation not recoverable from the scan; non-punctuation, affects all tiers alike).",
+  "Accents and diacritics recorded as printed (Í, á, ă, ä, ü, æ ligatures)."
+ ],
+ "pipeline_amendment": {
+  "at": "2026-10-23T14:20:00+08:00",
+  "change": "Uniform background-flattening preprocessing of all tier images before OCR (see run_pipeline.py docstring).",
+  "reason": "Raw photographic Google Books scans return SILENT EMPTY OCR (Tesseract 5.3.4, PSM 3, exit 0, no warning) on 7 of 10 preregistered pages; no measurement would exist otherwise.",
+  "scope": "OCR input conditioning only. Page selection, gold, frozen detector, control sampling and scoring are unchanged. Recorded before any detector run, queue construction or decision."
+ }
+}

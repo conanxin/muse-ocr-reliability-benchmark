@@ -1,0 +1,16 @@
+{
+ "sealed_at": "2026-10-23T14:12:17+08:00",
+ "method": "Independent visual transcription from 200-DPI page images BEFORE any OCR of these pages; sealed before pipeline run (lint + pipeline follow in the same session, decisions and scoring later).",
+ "files": {
+  "p0072.txt": "480300ce936bb82eb3782415fa91f8baea7427a293b2ea47288e5c7f7200a195",
+  "p0153.txt": "12eb8d116bc810f67f99aa27c7a4d7ebb5918e9e6338fe6ec09eb4dc28c85e2e",
+  "p0233.txt": "85d5eb8a267f739b7ddd311f100244c0b22c81d3c5140eddd171fd328adb48e8",
+  "p0314.txt": "78e9cd244ac8da58182d04887920246f2b86a6819307a8ba64de52f74d9ec8e1",
+  "p0395.txt": "a522c2a6038e7eb4074815db9700cfe6f76898aca5aee3d3a5c6d62ae83abf82",
+  "p0475.txt": "0e17fe5fdee69b49a6b1a50e7b55e5c54fd8885fed2296e50964b2ca0d35257d",
+  "p0556.txt": "24b45700c4178321fcc1d795d685d1d2effb0d0937f891fe0cc7c12258f8d935",
+  "p0637.txt": "7b1bd0fa39a1c1b01431d6d69dc603cacd212157d0c59bc27ce358a0dd86febb",
+  "p0718.txt": "14c5709d4e4ac47649e6ed985e9be102e4f0af31804f0825d01d727f81856e79",
+  "p0798.txt": "b598cf49e98cb9cc94728524a0ab1e9c2a9a4c5fd83b39886e2f2fc0b8111357"
+ }
+}

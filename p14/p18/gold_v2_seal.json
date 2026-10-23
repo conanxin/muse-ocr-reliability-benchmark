@@ -1,0 +1,17 @@
+{
+ "sealed_at": "2026-10-23T14:29:59+08:00",
+ "version": "gold v2 (scoring standard for P18)",
+ "basis": "goldcheck lint raised 11 ASCII-apostrophe (U+0027) warnings on gold v1; every site was inspected on 360-DPI crops (apos_recheck/) and the printed glyph is a curly apostrophe (U+2019) at 11/11 sites. v1 and its seal are preserved unchanged.",
+ "files": {
+  "p0072.txt": "1a804bad4ed3af04b92f891ffdf7aceeb6bff8290ece9a28d0ac2c9b477bfd42",
+  "p0153.txt": "69f8f6674f50c1bbe01d955ecf734ce39ecf72a643c8141cae6ad316bd6fbf83",
+  "p0233.txt": "f16bb58ff5d7086d109f301a321a589a504fbd45c7e18b5cde3f313c66e2a134",
+  "p0314.txt": "78e9cd244ac8da58182d04887920246f2b86a6819307a8ba64de52f74d9ec8e1",
+  "p0395.txt": "1e0dec85a8cf4168a07583d2fcfde8abfda3e68b4496d45776010a4317643efe",
+  "p0475.txt": "804b2ee6fb2edcf3c5de0d5c261301d3a62dacb313e7bd2ecda5ff208404e50f",
+  "p0556.txt": "24b45700c4178321fcc1d795d685d1d2effb0d0937f891fe0cc7c12258f8d935",
+  "p0637.txt": "7b1bd0fa39a1c1b01431d6d69dc603cacd212157d0c59bc27ce358a0dd86febb",
+  "p0718.txt": "14c5709d4e4ac47649e6ed985e9be102e4f0af31804f0825d01d727f81856e79",
+  "p0798.txt": "c587f6236e52f5072f16d1172ddb49fc257517796feb79b10938d7ba70b1e307"
+ }
+}
