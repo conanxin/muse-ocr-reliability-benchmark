@@ -53,6 +53,8 @@ class BookCase(unittest.TestCase):
             # committed generator reproduces them deterministically.
             subprocess.run([sys.executable, str(PKG / "fixtures" / "make_fixture.py")],
                            cwd=PKG, capture_output=True, check=True)
+            # A fresh clone has no binary page images and no scans_360 directory.
+            (self.book / "work/scans_360").mkdir(parents=True, exist_ok=True)
             for pg in (101, 102):
                 shutil.copy(FIXTURE / f"work/scans_360/p{pg:04d}.png",
                             self.book / f"work/scans_360/p{pg:04d}.png")
