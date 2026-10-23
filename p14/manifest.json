@@ -1,0 +1,36 @@
+{
+  "task_id": "MUSE_OCR_P14_CROSSBOOK_PILOT",
+  "protocol_version": "P14-1.0",
+  "pre_registered_on": "2026-10-23",
+  "status": "SOURCE_IDENTIFIED_ACQUISITION_PENDING",
+  "source": {
+    "title": "The Chinese Recorder and Missionary Journal",
+    "year": 1896,
+    "volume": 27,
+    "language": "English",
+    "public_domain_provenance_url": "https://commons.wikimedia.org/wiki/File:The_Chinese_recorder_and_missionary_journal_(IA_s3039id1390153).pdf",
+    "internet_archive_id": "s3039id1390153",
+    "pdf_url": "https://archive.org/download/s3039id1390153/s3039id1390153.pdf",
+    "pdf_pages_expected": 636,
+    "reported_file_size_mb": 57.86,
+    "local_pdf_sha256": null,
+    "copyright_note": "Wikimedia Commons lists the scanned PDF as Public Domain Mark 1.0; verify identity and metadata at acquisition."
+  },
+  "pages_pdf_1based": [32,33,34,35,36,118,119,120,121,122,284,285,286,287,288,500,501,502,503,504],
+  "blind_gold_pages_pdf_1based": [32,119,284,286,501],
+  "split_rules": {
+    "development_book": "The Chinese Recorder 1896",
+    "frozen_reference_book": "Fangmei Guangan 1979 P9/P10",
+    "no_training_or_rule_tuning_on_test_pages": true,
+    "no_gold_from_existing_OCR_text": true,
+    "source_image_native_ppi_must_be_measured": true,
+    "render_dpi_not_equal_native_ppi": true
+  },
+  "metrics": {
+    "gold_pages": "strict_CER_and_WER_only_where_manual_gold_exists",
+    "omission_recall": "report_only_from_source_verified_labeled_units",
+    "ai_miscorrection": "report_only_if_independent_AI_decisions_and_manual_gold_exists",
+    "missing_gold": "NOT_MEASURED_not_zero",
+    "reporting": "counts_denominators_and_95pct_CI_optional_for_small_n"
+  }
+}
